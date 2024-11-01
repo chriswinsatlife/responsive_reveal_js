@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>Test of RevealJS</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="author" content="CY">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -234,7 +234,7 @@
 
 				<section data-background-iframe="https://hakim.se" data-background-interactive>
 					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-						<h2>Iframe Backgrounds</h2>
+						<h2 style="color: rgb(255, 255, 255);">Iframe Backgrounds</h2>
 						<p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
 					</div>
 				</section>
@@ -409,18 +409,25 @@ Reveal.addEventListener( 'customevent', function() {
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-        			width: "100%",
-        			height: "100%",
-        			margin: 0.00,
-        			minScale: 1,
-        			maxScale: 1,
+        		width: "100%",
+        		height: "100%",
+        		margin: 0.00,
+        		minScale: 1,
+        		maxScale: 1,
 				controls: false,
 				progress: true,
-				center: false,
+				center: true,
 				hash: true,
+				jumpToSlide: true,
+				respondToHashChanges: true,
+				keyboard: true,
+				disableLayout: true,
 
-				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				transition: 'none', 
 
+				view: 'scroll',
+				scrollProgress: true,
+				
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
