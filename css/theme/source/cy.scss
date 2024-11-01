@@ -1,0 +1,618 @@
+/*********************************************
+ * REVEAL.JS THEME STYLE BOILERPLATE
+ *********************************************/
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url(../../lib/font/inter/inter.css);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+
+body {
+	@include bodyBackground();
+	background-color: $backgroundColor;
+}
+
+.reveal {
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	font-weight: normal;
+	color: $mainColor;
+}
+
+::selection {
+	color: $selectionColor;
+	background: $selectionBackgroundColor;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	color: $selectionColor;
+	background: $selectionBackgroundColor;
+	text-shadow: none;
+}
+
+.reveal .slides section,
+.reveal .slides section>section {
+	line-height: 1.5;
+	font-weight: inherit;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	margin: $headingMargin;
+	color: $headingColor;
+
+	font-family: $headingFont;
+	font-weight: $headingFontWeight;
+	line-height: $headingLineHeight;
+	letter-spacing: $headingLetterSpacing;
+
+	text-transform: $headingTextTransform;
+	text-shadow: $headingTextShadow;
+
+	word-wrap: break-word;
+}
+
+.reveal h1 {font-size: $heading1Size; }
+.reveal h2 {font-size: $heading2Size; }
+.reveal h3 {font-size: $heading3Size; }
+.reveal h4 {font-size: $heading4Size; }
+
+.reveal h1 {
+	text-shadow: $heading1TextShadow;
+}
+
+
+/*********************************************
+ * OTHER
+ *********************************************/
+
+.reveal p {
+	margin: $blockMargin 0;
+	line-height: 1.6;
+}
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+	max-width: 95%;
+	max-height: 95%;
+}
+.reveal strong,
+.reveal b {
+	font-weight: bold;
+}
+
+.reveal em {
+	font-style: italic;
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+	display: inline-block;
+
+	text-align: left;
+	margin: 0 0 0 1em;
+}
+
+.reveal ol {
+	list-style-type: decimal;
+}
+
+.reveal ul {
+	list-style-type: disc;
+}
+
+.reveal ul ul {
+	list-style-type: square;
+}
+
+.reveal ul ul ul {
+	list-style-type: circle;
+}
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+	display: block;
+	margin-left: 2vmin;
+}
+
+.reveal dt {
+	font-weight: bold;
+}
+
+.reveal dd {
+	margin-left: 40px;
+}
+
+.reveal blockquote {
+	display: block;
+	position: relative;
+	width: 56ch;
+	margin: 4vmin 0;
+	padding: 2vmin;
+	text-align: left;
+	font-size: 1.6rem;
+	line-height: 1.6;
+	border-left: outset;
+    border-left-width: thick;
+
+	font-style: none;
+	background: none;
+	box-shadow: none;
+}
+	.reveal blockquote p:first-child,
+	.reveal blockquote p:last-child {
+		display: inline-block;
+	}
+
+.reveal q {
+	font-style: italic;
+}
+
+.reveal pre {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: 4vmin auto;
+	position: relative;
+	width: 100%;
+	margin: $blockMargin auto;
+
+	text-align: left;
+	line-height: 1.6em;
+	font-size: 1.2em;	
+	font-family: $codeFont;
+	
+
+	word-wrap: break-word;
+
+	box-shadow: none;
+}
+
+.reveal code {
+	font-family: $codeFont;
+	text-transform: none;
+	line-height: 1.6em;
+	font-size: 1.2em;
+}
+
+.reveal pre code {
+	display: block;
+	padding: 4vmin;
+	overflow: auto;
+	max-height: none;
+	word-wrap: normal;
+	border-radius: 2vmin;
+	// line-height: 1.8;
+	text-wrap: initial;
+}
+
+.reveal pre code-wrapper {
+	font-size: 2em;
+}
+
+.reveal table {
+	margin: auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+    font-size: 1.6rem;
+}
+
+.reveal table th {
+	font-weight: bold;
+}
+
+.reveal table th,
+.reveal table td {
+	text-align: left;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+	border-bottom: 1px solid;
+}
+
+.reveal table th[align="center"],
+.reveal table td[align="center"] {
+	text-align: center;
+}
+
+.reveal table th[align="right"],
+.reveal table td[align="right"] {
+	text-align: right;
+}
+
+.reveal table thead tr th, .reveal table tbody tr td {
+	padding: 2vmin;
+}
+
+.reveal table tbody tr:last-child th,
+.reveal table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+.reveal sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+.reveal sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+.reveal small {
+	display: inline-block;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	vertical-align: top;
+}
+
+.reveal small * {
+	vertical-align: top;
+}
+
+
+/*********************************************
+ * LINKS
+ *********************************************/
+
+.reveal a {
+	color: $linkColor;
+	text-decoration: none;
+
+	-webkit-transition: color .15s ease;
+	   -moz-transition: color .15s ease;
+	        transition: color .15s ease;
+}
+	.reveal a:hover {
+		color: $linkColorHover;
+
+		text-shadow: none;
+		border: none;
+	}
+
+.reveal .roll span:after {
+	color: #fff;
+	background: darken( $linkColor, 15% );
+}
+
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+
+.reveal section img {
+	margin: 2vmin 0px;
+	background: rgba(255,255,255,0.12);
+	color: rgba(255, 255, 255, 1.0);
+	border: 0px solid $mainColor;
+
+	box-shadow: none;
+}
+
+	.reveal section img.plain {
+		border: 0;
+		box-shadow: none;
+	}
+
+	.reveal a img {
+		-webkit-transition: all .15s linear;
+		   -moz-transition: all .15s linear;
+		        transition: all .15s linear;
+	}
+
+	.reveal a:hover img {
+		background: rgba(255,255,255,0.2);
+		border-color: $linkColor;
+
+		box-shadow: 0 0 0px rgba(0, 0, 0, 0.55);
+	}
+
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+
+.reveal .controls {
+	color: $linkColor;
+}
+
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+
+.reveal .progress {
+	background: rgba(0,0,0,0.2);
+	color: $linkColor;
+}
+	.reveal .progress span {
+		-webkit-transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+		   -moz-transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+			transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
+	}
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+ @media print {
+    .backgrounds {
+        background-color: $backgroundColor;
+    }
+}
+
+/*********************************************
+ * NEW CUSTOM CODE FOR RESPONSIVENESS
+ *********************************************/
+ .reveal .slides section.title .grid-wrapper {    
+	box-sizing: border-box;
+	display: grid;
+	grid-template-areas:
+	  "header header"
+	  "content content"
+	  ". credit";
+	grid-template-columns: auto 40%;
+	grid-template-rows: 6vmin 1fr auto;
+	grid-column-gap: 10vmin;
+	height: 100%;
+	padding: 2vmin;
+  }
+  .logo {
+	 grid-area: header;
+  }
+  .content {
+	align-self: center;
+	grid-area: content;
+  }
+  .credit {
+	grid-area: credit;
+  }
+
+ @media (max-width: 568px) {
+	.grid-wrapper {
+	  grid-template-areas: "header" "content" "credit";
+	  grid-template-columns: auto;
+	}
+	.credit {
+	  justify-self: end;
+	}
+  }
+  
+  @media (min-width: 1280px) {
+	.content {
+	  display: grid;
+	  grid-template-areas: "title description";
+	  grid-template-columns: auto 40%;
+	  grid-column-gap: 2vmin;
+	}
+	h1 {
+	  grid-area: title;
+	}
+	.description {
+	  grid-area: description;
+	}
+  }
+
+/*********************************************
+ * NEW CUSTOM CODE FOR AESTHETICS
+*********************************************/
+$backgroundColor: rgba(255, 255, 255, 1.0);
+
+$mainColor: rgb(9, 9, 11);
+$headingColor: rgb(9, 9, 11);
+
+$mainFontSize: 2.0vw;
+$mainFont: 'Inter', 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Inter', 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 800;
+$linkColor: rgb(147, 51, 234);
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 3.2em;
+$heading2Size: 2.4em;
+$heading3Size: 1.6em;
+$heading4Size: 1.2em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6, p {
+		color: rgba(255, 255, 255, 1.0);
+	}
+}
+
+/*********************************************
+ * NEW CUSTOM CODE FOR SIZING
+ *********************************************/
+
+// Base font and padding for responsive design
+html {
+	font-size: 1.2vw; // Adjusted base for better readability
+	line-height: 1.4; // Improved line spacing
+	//padding: 8vmin; // Extra padding to prevent text cutoff
+	text-align: left;
+  }
+  
+  // Adjusted padding and font sizes for readability across viewports
+  .reveal {
+	background-color: $backgroundColor;
+	color: $mainColor;
+	font-family: $mainFont;
+	// font-size: 2.0rem; // Body font larger for balance
+	text-align: left;
+	// padding: 12vmin; // Consistent padding on all sides
+  
+	h1, h2, h3, h4 {
+	  font-family: $headingFont;
+	  color: $headingColor;
+	  font-weight: 800;
+	  line-height: 1.4; // Tighter line spacing for headings
+	  text-align: left;
+	  margin: 0 0 1rem 0;
+	}
+  
+	h1 { font-size: 3.6rem; } // Reduced headline size for balance
+	h2 { font-size: 2.4rem; }
+	h3 { font-size: 2.0rem; }
+	h4 { font-size: 1.4rem; }
+
+	p { font-size: 1.4rem; }
+  }
+  
+  .slides {
+  
+	// Padding adjustments for smaller screens
+	@media (max-width: 1024px) {
+	  padding: 8vmin;
+	}
+  
+	@media (max-width: 768px) {
+	  padding: 6vmin;
+	}
+  
+	@media (max-width: 568px) {
+	  padding: 4vmin;
+	}
+  }
+  
+  // Responsive text sizes for smaller screens
+  @media (max-width: 1024px) {
+	html { font-size: 1.6vw; }
+  
+	.reveal {
+	  padding: 4vmin;
+	}
+  
+	h1 { font-size: 3.2rem; }
+	h2 { font-size: 2.8rem; }
+	h3 { font-size: 2.2rem; }
+	h4 { font-size: 1.8rem; }
+  }
+  
+  @media (max-width: 768px) {
+	html { font-size: 1.5vw; }
+  
+	.reveal {
+	  padding: 3vmin;
+	}
+  
+	h1 { font-size: 3rem; }
+	h2 { font-size: 2.6rem; }
+	h3 { font-size: 2.0rem; }
+	h4 { font-size: 1.8rem; }
+  }
+  
+  @media (max-width: 568px) {
+	html { font-size: 1.4vw; }
+  
+	.reveal {
+	  padding: 2vmin;
+	}
+  
+	h1 { font-size: 3.0rem; }
+	h2 { font-size: 2.6rem; }
+	h3 { font-size: 2.0rem; }
+	h4 { font-size: 1.8rem; }
+  }
+  
+  // Paragraph and list styling with improved readability
+  p, ol, ul, li {
+	margin-bottom: 0.8rem; // Reduced space for compact layout
+	width: 100%;
+	text-align: left;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	max-width: 56ch;
+  	// white-space: nowrap;
+  }
+  
+  a {
+	color: $linkColor;
+	&:hover { color: $linkColorHover; }
+  }
+  
+  code, pre {
+	font-family: 'Courier Prime', 'Fira Sans', monospace;
+	text-align: left;
+  }
+  
+  ::selection {
+	background-color: $selectionBackgroundColor;
+	color: $selectionColor;
+  }
+
+ // Fix Margin Right 
+  .reveal {
+	margin-right: 0 !important;
+  }
+  
+  .reveal .slides {
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+	box-sizing: border-box;
+    padding: 12vmin;
+    word-wrap: break-word;
+	overflow: auto; 
+    width: 100%;
+	// flex-flow: nowrap;
+	// position: relative !important;
+  }
+  
+  .reveal .slides section {
+	max-width: 100%;
+	margin-right: 0 !important;
+	padding: 12vmin;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+	// position: relative !important;
+	// display: flex !important;
+	// flex-direction: column !important;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+	top: 0vmin;
+	bottom: 0vmin;
+	align-content: center;
+  }
+
+.reveal-viewport {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    overflow: hidden;
+}
+
+.reveal .slides > section.past {
+	display: flex !important;
+	flex-direction: column;
+	
+}
