@@ -1,0 +1,41 @@
+name: Compile SCSS and Commit to Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          npm install -D postcss postcss-cli postcss-scss autoprefixer sass \
+          
+      - name: Create PostCSS Config
+        run: |
+          echo "module.exports = { parser: 'postcss-scss', plugins: { autoprefixer: {} } };" > postcss.config.js
+
+      - name: Compile SCSS to CSS
+        run: npx postcss /css/cy.scss -o /css/cy.css
+
+      - name: Commit and Push CSS
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add /css/cy.css
+          git commit -m "Compile SCSS to CSS" || echo "No changes to commit"
+          git remote set-url origin "https://$GH_PAT@github.com/${{ github.repository }}.git"
+          git push origin HEAD:main
