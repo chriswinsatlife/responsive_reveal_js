@@ -16,7 +16,7 @@ format:
 Financial incentives might be the key to helping smokers kick the habit. Let's dive into a groundbreaking study that put this idea to the test with real employees.
 :::
 ::: {.column width="40%" }
-![](https://media.istockphoto.com/id/93435662/photo/hand-cigarette-smoke.jpg?s=612x612&w=0&k=20&c=dMZ55WolXOOk8A32vA8FDy4OMVYi3loUWMese1EQJj0=){fig-align="right" style="background: #e83e8c;" width="100%" alt="Image illustrating risk perception"}
+![](istockphoto-93435662-612x612.jpg){fig-align="right" style="background: #e83e8c;" width="100%" alt="Image illustrating risk perception"}
 :::
 :::
 
