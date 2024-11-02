@@ -11,7 +11,7 @@ format:
     footer: "[besci.org](https://besci.org)"
     transition: none
     background-transition: none
-    css: cy.css  # This applies your custom CSS on top
+    css: css/theme/cy.css  # This applies your custom CSS on top
 ---
 
 ## The Availability Heuristic: How Recent Events Hijack Your Decisions
