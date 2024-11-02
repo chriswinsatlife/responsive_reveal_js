@@ -643,6 +643,17 @@ html {
     border-radius: 4vmin;
 }
 
+.columns {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.column {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
 @media (max-width: 640px) {
     .columns {
         display: flex !important;
