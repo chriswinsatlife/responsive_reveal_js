@@ -27,7 +27,7 @@ jobs:
           echo "module.exports = { parser: 'postcss-scss', plugins: { autoprefixer: {} } };" > postcss.config.js
 
       - name: Compile SCSS to CSS
-        run: npx postcss /css/cy.scss -o /css/cy.css
+        run: npx postcss /css/theme/source/cy.scss -o /css/theme/cy.css
 
       - name: Commit and Push CSS
         env:
