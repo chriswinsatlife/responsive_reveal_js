@@ -9,6 +9,12 @@ format:
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
 ---
 
+## Can Cash Motivate Smokers to Quit for Good?
+
+Financial incentives might be the key to helping smokers kick the habit. Let's dive into a groundbreaking study that put this idea to the test with real people at a large company—not in a lab.
+
+---
+
 ::: {.columns}
 ::: {.column width="60%"}
 ## Can Cash Motivate Smokers to Quit for Good?
