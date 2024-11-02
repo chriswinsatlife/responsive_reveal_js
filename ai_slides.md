@@ -48,7 +48,14 @@ The availability heuristic is a cognitive bias where you overestimate the likeli
 
 ## Misjudging Risk: Flying vs. Driving
 
+::: {.columns}
+::: {.column width="60%"}
 Despite over 36,000 U.S. road fatalities annually (NHTSA, 2019), vivid media coverage of plane crashes makes you fear flying more than driving. The availability heuristic skews your risk assessment.
+:::
+::: {.column width="40%"}
+![](path/to/your/image.jpg){fig-align="right" width="100%"}
+:::
+:::
 
 ---
 
