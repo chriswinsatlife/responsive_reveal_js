@@ -20,21 +20,17 @@ Financial incentives might be the key to helping smokers kick the habit. Let's d
 
 ::: {.columns}
 ::: {.column width="60%"}
-### The title text goes here.
-:::
-::: {.column width="40%"}
-![](istockphoto-93435662-612x612.jpg){style="" alt="Image illustrating smoking cessation motivation"}
-:::
-:::
-
----
-
-## Smoking: Still America's Leading Preventable Killer
+### Smoking: Still America's Leading Preventable Killer
 
 - 480,000 deaths annually in the U.S.—that's 1 in every 5 deaths.
 - $300 billion in economic costs each year.
 - 34 million adults still smoke (14% of the population).
 - Despite the risks, quitting remains a monumental challenge.
+:::
+::: {.column width="40%"}
+![](istockphoto-93435662-612x612.jpg){style="" alt="Image illustrating smoking cessation motivation"}
+:::
+:::
 
 ---
 
