@@ -1,4 +1,4 @@
-name: Build Workflow
+name: CI/CD Workflow
 
 on:
   push:
@@ -15,6 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -42,6 +47,10 @@ jobs:
           npx grunt sass --force
           npx grunt autoprefixer --force
           npx grunt cssmin --force
+          
+      - name: Render Quarto Project
+        run: |
+          quarto render ai_slides.qmd --to revealjs
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
