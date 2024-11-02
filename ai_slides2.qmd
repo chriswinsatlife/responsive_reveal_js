@@ -40,9 +40,9 @@ Financial incentives might be the key to helping smokers kick the habit. Let's d
 
 ---
 
-## Our Bold Experiment: Money as a Kickstart to Quit
+## A Bold Experiment: Money as a Kickstart to Quit
 
-Could substantial financial incentives significantly boost long-term smoking cessation rates? We set out to find out.
+Could substantial financial incentives significantly boost long-term smoking cessation rates? Volpp and colleagues (2009) set out to find out.
 
 ---
 
@@ -78,7 +78,7 @@ Could substantial financial incentives significantly boost long-term smoking ces
 
 ---
 
-## Measuring Success: How We Tracked Quitting
+## Measuring Success: How They Tracked Quitting
 
 - Regular check-ins at 3, 6, 9/12, and 15/18 months.
 - Self-reported smoking status verified with cotinine tests.
@@ -86,13 +86,13 @@ Could substantial financial incentives significantly boost long-term smoking ces
 
 ---
 
-## Defining Our Primary Endpoint
+## Defining The Primary Endpoint
 
 Successful cessation meant continuous abstinence from smoking, confirmed at both early (3 or 6 months) and later (9 or 12 months) follow-ups through negative cotinine tests.
 
 ---
 
-## Secondary Outcomes We Examined
+## Secondary Outcomes Examined
 
 - Enrollment and completion rates of cessation programs.
 - Smoking cessation within the first 6 months.
@@ -139,7 +139,7 @@ Successful cessation meant continuous abstinence from smoking, confirmed at both
 
 ---
 
-## Why Our Study Succeeded Where Others Didn't
+## Why This Study Matters
 
 - Larger sample size provided sufficient power.
 - Incentives were substantial enough to motivate change.
@@ -236,7 +236,7 @@ Financial incentives can revolutionize how we approach health behavior change. I
 
 - Employers and policymakers, it's time to act.
 - Implement programs that have proven effectiveness.
-- Let's invest in the health of our workforce and communities.
+- If paying people to quit is more effective than other methods, it's unethical NOT to pay them.
 
 ---
 
@@ -246,9 +246,3 @@ Financial incentives can revolutionize how we approach health behavior change. I
 - Mokdad AH, et al. (2004). Actual Causes of Death in the United States.
 - CDC Reports on Smoking and Health Economics.
 - Full reference list available upon request.
-
----
-
-## Your Move: Will You Invest in Health?
-
-The evidence is compelling—financial incentives work. The question is, will you take the step to implement them and make a tangible difference?
