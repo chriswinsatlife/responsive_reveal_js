@@ -16,11 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: pre-release
-      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -47,22 +42,6 @@ jobs:
           npx grunt sass --force
           npx grunt autoprefixer --force
           npx grunt cssmin --force
-          
-      - name: Render Markdown Files
-        run: |
-          for file in *.md; do
-            if [ -f "$file" ]; then
-              quarto render "$file" --to revealjs
-            fi
-          done
-          
-      - name: Render Quarto Files
-        run: |
-          for file in *.qmd; do
-            if [ -f "$file" ]; then
-              quarto render "$file" --to revealjs
-            fi
-          done
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
