@@ -20,21 +20,14 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm install -D postcss postcss-cli postcss-scss autoprefixer sass
-
+          npm install -D postcss postcss-cli postcss-scss autoprefixer sass \
+          
       - name: Create PostCSS Config
         run: |
           echo "module.exports = { parser: 'postcss-scss', plugins: { autoprefixer: {} } };" > postcss.config.js
 
-      - name: Verify SCSS File
-        run: |
-          if [ ! -f ./css/cy.scss ]; then
-            echo "Error: ./css/cy.scss does not exist."
-            exit 1
-          fi
-
       - name: Compile SCSS to CSS
-        run: npx postcss ./css/cy.scss -o ./css/cy.css
+        run: npx postcss /css/cy.scss -o /css/cy.css
 
       - name: Commit and Push CSS
         env:
@@ -42,7 +35,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add ./css/cy.css
+          git add /css/cy.css
           git commit -m "Compile SCSS to CSS" || echo "No changes to commit"
           git remote set-url origin "https://$GH_PAT@github.com/${{ github.repository }}.git"
           git push origin HEAD:main
