@@ -1,0 +1,387 @@
+---
+title: "Financial Incentives for Smoking Cessation: Bribing People to Quit?"
+subtitle: "A randomized controlled trial that might make your CFO squirm"
+format:
+  revealjs:
+    slide-number: false
+    preview-links: auto
+    logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
+---
+
+## The Nicotine Noose
+
+### Smoking: Still Killing Us, Still Making Money
+
+- 480,000 annual US deaths
+- $300 billion in economic costs
+- 34 million adult smokers (14% of population)
+- Big Tobacco: $18 billion profit (2021)
+
+You'd think we'd have solved this by now. We haven't.
+
+---
+
+## Past Attempts: A Comedy of Errors
+
+### Previous Studies on Incentives: Small Change, Big Failure
+
+- Tiny samples barely larger than a family reunion
+- Incentives as low as $10 (what is this, 1950?)
+- Short-term focus missing the relapse rollercoaster
+- Inconclusive evidence (shocking, we know)
+
+---
+
+## Our Brilliant Plan
+
+### Study Objectives: Show Me the Money
+
+Primary: Does cold, hard cash keep cigarettes cold?
+
+Secondary:
+
+1. How quickly can we bribe people to quit?
+2. Will they actually use those neglected cessation programs?
+3. Who's most susceptible to our financial seduction?
+
+---
+
+## The Setup
+
+### How We Rigged the Game
+
+- 878 employees from a nameless corporate behemoth
+- Control group: Here's a pamphlet, good luck
+- Incentive group: Quit and we'll make it rain
+- Up to $750 for kicking the habit
+
+Because nothing says "we care" like conditional cash.
+
+---
+
+## Participant Casting Call
+
+### Who Answered Our Siren Song?
+
+- Recruited Feb 2005 - Nov 2006 (yes, this study is old enough to drive)
+- Multiple US worksites (corporate drones unite!)
+- Initial survey via company intranet
+- On-site recruiting for the digitally challenged
+- Voluntary participation (no arm-twisting, we promise)
+
+---
+
+## The Chosen Ones
+
+### Our Criteria: Not Exactly "The Hunger Games"
+
+- 18+ years old (sorry, teen smokers)
+- 5+ cigarettes daily (casuals need not apply)
+- No other tobacco products (we're purists)
+- Sticking around for 18+ months (no quitters... except for smoking)
+- Willing guinea pigs for our experiment
+
+---
+
+## The Grand Experiment
+
+### What Our Lab Rats Experienced
+
+Everyone got:
+
+- A list of local "quit smoking" resources (how generous)
+- Standard health benefits (don't get excited)
+
+The lucky ones also received:
+
+- Promises of cash for quitting
+- Regular check-ins and spit tests (how dignified)
+
+---
+
+## Show Them the Money
+
+### Our Bribe Structure (Don't Tell HR)
+
+- $100 for completing a cessation program
+- $250 for proven 6-month abstinence
+- $400 for another 6 months smoke-free
+
+Total possible payout: $750
+(Less than a CEO's lunch budget, but hey, it's something)
+
+---
+
+## Stalking Our Subjects
+
+### How We Hounded Participants
+
+- 3-month check-in: "Still smoking?" (awkward)
+- 6-month grilling for the stubborn ones
+- 9 or 12-month interrogation + spit test
+- 15 or 18-month final judgment
+
+No, we're not overbearing at all.
+
+---
+
+## Trust, but Verify
+
+### Lie Detector Test: Cotinine Edition
+
+- Saliva or urine samples collected (yes, it's gross)
+- Cotinine: nicotine's tattletale metabolite
+- Must pass two tests to be declared smoke-free
+- Because we trust you... but not really
+
+---
+
+## The Holy Grail
+
+### Our Golden Ticket: Long-Term Quitting
+
+Self-reported abstinence at both early (3 or 6 months) and late (9 or 12 months) check-ins, backed by negative cotinine tests. Because talk is cheap, but spit doesn't lie.
+
+---
+
+## Bonus Round
+
+### Other Things We Measured (Because Why Not?)
+
+- How many actually bothered with cessation programs
+- Who stuck it out to the bitter end
+- Early quitters vs. procrastinators
+- The truly stubborn ones still smoke-free at 15-18 months
+- Which subgroups were most easily bribed (for science, of course)
+
+---
+
+## Number Crunching
+
+### How We Tortured the Data
+
+- Intention-to-treat analysis (no take-backsies)
+- Chi-square tests for yes/no questions
+- Fancy t-tests and Wilcoxon rank-sum for the numbers folks
+- Odds ratios: raw and prettied up
+- Subgroup analysis (because everyone's special)
+
+---
+
+## The Chosen Few
+
+### From Temptation to Trial
+
+[Insert CONSORT-style flow diagram showing:]
+
+- 1,903 curious cats
+- 878 committed guinea pigs
+- 436 potential cash cows
+- 442 control group suckers
+- Follow-up numbers (spoiler: they drop)
+
+---
+
+## Meet the Subjects
+
+### Our Cast of Characters
+
+- Average age: 44 (midlife crisis smokers)
+- 55% male (slightly more Y chromosomes)
+- 90% white (diversity, anyone?)
+- 60% college-educated (yet still smoking)
+- Mostly rich (>500% of poverty level)
+- Pack-a-day habit (how quaint)
+- 5-6% hardcore puffers (2+ packs/day)
+
+---
+
+## The Big Reveal
+
+### Cash or Cancer: What Motivates More?
+
+9 or 12-month quit rates:
+
+- Money group: 14.7%
+- Control group: 5.0%
+- P-value: <0.001 (that's stats-speak for "Holy cow!")
+
+Turns out, you can put a price on health. It's about $750.
+
+---
+
+## Desperation or Motivation?
+
+### Did Money Make Them Try Harder?
+
+Program enrollment:
+
+- Cash cows: 15.4%
+- Control group: 5.4%
+
+Program completion:
+
+- Money-motivated: 10.8%
+- Self-motivated: 2.5%
+
+Both differences statistically significant (p<0.001). Shocking, we know.
+
+---
+
+## The Sprint
+
+### Early Quitting: A 6-Month Snapshot
+
+6-month cessation rates:
+
+- Incentive group: 20.9%
+- Control group: 11.8%
+- P-value: <0.001
+
+Money: Motivating people to do what they should anyway since... forever.
+
+---
+
+## The Marathon
+
+### Still Smoke-Free After All These Years (Well, Months)
+
+15 or 18-month cessation rates:
+
+- Cash-incentivized: 9.4%
+- Control group: 3.6%
+- P-value: 0.001
+
+Even long-term, money talks and cigarettes walk.
+
+---
+
+## Equal Opportunity Bribery
+
+### Does Money Motivate Everyone?
+
+[Insert forest plot showing:]
+
+Consistently higher quit rates for the cash crowd across:
+
+- Age groups (from millennials to boomers)
+- Gender (Mars and Venus both like green)
+- Education levels (PhDs and GEDs unite)
+- Income brackets (turns out, everyone likes free money)
+- Baseline smoking intensity (from "social smokers" to chimneys)
+
+No significant interactions. Cash is the universal language.
+
+---
+
+## The Bottom Line
+
+### What We Learned (And Why Your CFO Should Care)
+
+- Money motivates quitting (surprise!)
+- Effects last longer than most New Year's resolutions
+- Cash makes boring cessation programs suddenly appealing
+- Works for pretty much everyone (equal opportunity corruption)
+- Your workplace could be the next nicotine-free utopia
+
+---
+
+## Not Your Grandma's Smoking Study
+
+### How We One-Upped Previous Research
+
+- 878 participants (size matters)
+- Up to $750 incentive (no more pocket change)
+- 18-month follow-up (we're in it for the long haul)
+- Biochemical verification (trust issues, much?)
+- More numbers than you can shake a cigarette at
+
+---
+
+## The Spit Don't Lie
+
+### Why We're Obsessed with Cotinine
+
+- Nicotine's snitch, detectable for up to a week
+- Eliminates the "I swear I quit" syndrome
+- Confirms both short and long-term abstinence
+- Makes our data actually believable
+- Because "trust but verify" is our middle name
+
+---
+
+## Selling It to the C-Suite
+
+### The Business Case for Bribing Quitters
+
+Potential annual savings per ex-smoker:
+
+- $3,400 in productivity gains
+- Fewer sick days (and smoke breaks)
+- Lower healthcare costs (lung cancer ain't cheap)
+- Reduced fire hazard (we're only half-joking)
+- Plus, you get to brag about your "wellness initiatives"
+
+---
+
+## Beyond the Butt
+
+### Financial Incentives: Not Just for Nicotine Addicts
+
+Potential applications:
+
+- Paying people to lose weight (controversial, yet effective)
+- Bribing employees to exercise (sweat for swag)
+- Incentivizing medication adherence (quia pro quo)
+- Rewarding preventive screenings (because early detection is priceless)
+- Managing chronic conditions (cash for compliance)
+
+Your CFO's nightmare, your CHRO's dream.
+
+---
+
+## The Fine Print
+
+### Study Limitations (Or, How to Cover Our Academic Behinds)
+
+- Single company (not exactly a cross-section of America)
+- Participants whiter than a polar bear in a snowstorm
+- More degrees than a thermometer
+- Richer than your average Joe (or Jane)
+- Self-selected guinea pigs (bias, anyone?)
+- Potential for unintended consequences (smoking for hire, anyone?)
+- May not work everywhere (results may vary, void where prohibited)
+
+---
+
+## What's Next?
+
+### Future Research (Or, How to Keep Our Funding)
+
+- Finding the Goldilocks zone of incentive size
+- The 10-year plan: Do they stay quit?
+- Crunching numbers: Is this actually cost-effective?
+- Testing in diverse workplaces (not just corporate America)
+- Combining cash with other quitting tools (money + e-cigs = ?)
+
+---
+
+## The Last Drag
+
+### Cash for Quitters: Desperate Times, Desperate Measures?
+
+Financial incentives work. They're not pretty, they're not cheap, but they get results. In a world where cigarettes still kill and Big Tobacco still profits, maybe it's time we fight fire with fire... or in this case, smoke with cold, hard cash.
+
+---
+
+## References
+
+### For Those Who Actually Read This Far
+
+1. Volpp KG, et al. N Engl J Med. 2009;360(7):699-709.
+2. Mokdad AH, et al. JAMA. 2004;291:1238-45.
+3. CDC. MMWR Morb Mortal Wkly Rep. 2018;67(44):1225-1232.
+4. Fiore MC, et al. Treating Tobacco Use and Dependence: 2008 Update.
+5. Halpern SD, et al. N Engl J Med. 2015;372(22):2108-17.
+
+Now go quit smoking. Or at least find someone who will pay you to try.
