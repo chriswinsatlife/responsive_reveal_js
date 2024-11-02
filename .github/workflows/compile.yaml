@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         node-version:
+          - 18
           - 20
 
     steps:
@@ -54,11 +55,11 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm install -D postcss postcss-cli postcss-scss autoprefixer sass
+          npm install -D postcss postcss-cli postcss-scss sass
           
       - name: Create PostCSS Config
         run: |
-          echo "module.exports = { parser: 'postcss-scss', plugins: { autoprefixer: {} } };" > postcss.config.js
+          echo "module.exports = { parser: 'postcss-scss' };" > postcss.config.js
 
       - name: Compile SCSS to CSS
         run: npx postcss ./css/theme/source/cy.scss -o ./css/theme/cy.css
