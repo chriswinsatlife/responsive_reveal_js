@@ -15,19 +15,6 @@ Financial incentives might be the key to helping smokers kick the habit. Let's d
 
 ---
 
-::: {.columns}
-::: {.column width="60%"}
-## Can Cash Motivate Smokers to Quit for Good?
-
-Financial incentives might be the key to helping smokers kick the habit. Let's dive into a groundbreaking study that put this idea to the test with real employees.
-:::
-::: {.column width="40%"}
-![](istockphoto-93435662-612x612.jpg){style="background-color: #e83e8c; padding: 1em; width: 100%; display: inline-block;" alt="Image illustrating smoking cessation motivation"}
-:::
-:::
-
----
-
 ## Smoking: America's Leading Preventable Killer
 
 - 480,000 deaths annually in the U.S.—that's 1 in every 5 deaths.
