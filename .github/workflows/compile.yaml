@@ -19,6 +19,9 @@ jobs:
           node-version: '20'
           cache: 'npm'  # Ensures no old versions are cached
 
+      - name: Verify Node.js Version
+        run: node -v  # Check to ensure Node.js 20 is being used
+
       - name: Install Dependencies
         run: |
           npm install -D postcss postcss-cli postcss-scss autoprefixer sass
@@ -28,7 +31,7 @@ jobs:
           echo "module.exports = { parser: 'postcss-scss', plugins: { autoprefixer: {} } };" > postcss.config.js
 
       - name: Compile SCSS to CSS
-        run: npx postcss ./css/source/cy.scss -o ./css/theme/cy.css
+        run: npx postcss ./css/theme/source/cy.scss -o ./css/theme/cy.css
 
       - name: Commit and Push CSS
         env:
