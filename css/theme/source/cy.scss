@@ -643,14 +643,15 @@ html {
     border-radius: 4vmin;
 }
 
-@media (max-width: 600px) {
-    div.columns {
-        display: initial;
-        gap: initial;
-        display: flex;
-        flex-direction: column-reverse;
-    },
-    div.columns column {
+@media (max-width: 640px) {
+    .columns {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        gap: 1em !important;
+    }
+    
+    .column {
         width: 100% !important;
-	}
+        margin: 0 !important;
+    }
 }
