@@ -631,3 +631,26 @@ html {
     width: 88%;
     margin-bottom: 0px;
 }
+
+.reveal section img {
+    margin: 0px !important;
+    background: rgba(0, 0, 0, 0.12);
+    color: white;
+    border: 0px solid #09090b;
+    box-shadow: none;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 4vmin;
+}
+
+@media (max-width: 600px) {
+    div.columns {
+        display: initial;
+        gap: initial;
+        display: flex;
+        flex-direction: column-reverse;
+    },
+    div.columns column {
+        width: 100% !important;
+	}
+}
