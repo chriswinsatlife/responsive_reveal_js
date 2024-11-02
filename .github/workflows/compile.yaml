@@ -64,7 +64,13 @@ jobs:
       - name: Install Dependencies
         run: |
           npm ci
-          npm install -D sass grunt grunt-contrib-sass grunt-autoprefixer
+          npm install -D sass \
+                        grunt \
+                        grunt-cli \
+                        grunt-contrib-sass \
+                        grunt-autoprefixer \
+                        grunt-sass \
+                        sass-loader
 
       - name: Compile SCSS to CSS
         run: |
