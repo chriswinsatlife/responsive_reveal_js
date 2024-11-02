@@ -1,12 +1,19 @@
 ---
 title: "Can Cash Motivate Smokers to Quit for Good?"
-subtitle: "Financial incentives might be the key to helping smokers kick the habit. Let's dive into a groundbreaking study that put this idea to the test with real people at a large company—not in a lab."
+subtitle: ""
 format:
   revealjs:
     slide-number: false
     preview-links: auto
+    theme: default
     css: css/theme/cy.css
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
+---
+
+## Study Deep-Dive: Financial Incentives & Smoking Cessation
+
+Financial incentives might be the key to helping smokers kick the habit. Let's dive into a groundbreaking study that put this idea to the test with real people at a large company—not in a lab.
+
 ---
 
 ## Smoking: Still America's Leading Preventable Killer
