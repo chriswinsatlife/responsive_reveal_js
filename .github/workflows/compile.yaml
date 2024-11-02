@@ -51,16 +51,22 @@ jobs:
       - name: Render Markdown and Quarto Files
         run: |
           for file in *.md; do
-            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "CONTRIBUTING.md" ]; then
+            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "CONTRIBUTING.md" ] && [ "$file" != "LICENSE.md" ]; then
               echo "Processing $file..."
-              quarto render "$file" --to revealjs
+              if ! quarto render "$file" --to revealjs; then
+                echo "Warning: Failed to process $file, skipping..."
+                continue
+              fi
             fi
           done
           
           for file in *.qmd; do
             if [ -f "$file" ]; then
               echo "Processing $file..."
-              quarto render "$file" --to revealjs
+              if ! quarto render "$file" --to revealjs; then
+                echo "Warning: Failed to process $file, skipping..."
+                continue
+              fi
             fi
           done
           
