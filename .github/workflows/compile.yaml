@@ -16,11 +16,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'
-          cache: 'npm'  # Ensures no old versions are cached
-
-      - name: Verify Node.js Version
-        run: node -v  # Check to ensure Node.js 20 is being used
+          node-version: '20'  # Ensure Node.js 20 is specified
+          
+      - name: Check Node.js Version
+        run: node -v  # This should output `v20.x.x`
 
       - name: Install Dependencies
         run: |
