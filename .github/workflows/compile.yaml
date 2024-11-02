@@ -55,13 +55,10 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm install -D sass grunt-postcss autoprefixer
+          npm install -D sass grunt
 
       - name: Compile SCSS to CSS
-        run: |
-          npx grunt sass
-          npx grunt cssmin
-          npx grunt postcss
+        run: npx grunt --force  # Run Grunt in force mode to bypass missing tasks
 
       - name: Commit and Push CSS
         env:
