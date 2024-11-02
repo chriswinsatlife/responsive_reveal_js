@@ -5,12 +5,13 @@ format:
   revealjs:
     slide-number: false
     preview-links: auto
-    theme: none  # This disables built-in themes
-    css: cy.css  # This makes your CSS the only theme
+    theme: [default, cy.css]  # This loads default theme and your custom CSS
+    highlight-style: github
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
     footer: "[besci.org](https://besci.org)"
     transition: none
     background-transition: none
+    css: cy.css  # This applies your custom CSS on top
 ---
 
 ## The Availability Heuristic: How Recent Events Hijack Your Decisions
