@@ -54,10 +54,11 @@ jobs:
         run: node -v  # Confirm that Node.js 20 is being used
 
       - name: Install Dependencies
-        run: npm install -D sass
-          
+        run: |
+          npm install -D sass grunt-autoprefixer  # Install sass and grunt-autoprefixer
+
       - name: Compile SCSS to CSS
-        run: npx sass ./css/theme/source/cy.scss ./css/theme/cy.css
+        run: npx grunt css  # Run grunt css task, which includes sass, autoprefixer, and cssmin
 
       - name: Commit and Push CSS
         env:
