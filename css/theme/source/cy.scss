@@ -618,7 +618,7 @@ html {
 }
 
 .reveal a {
-	color: #09090b;
+	color: rgba(0, 0, 0, 0.12);
 }
 
 .slide-menu-wrapper .slide-menu-item, .slide-menu-wrapper .slide-menu-item-vertical {
@@ -665,4 +665,13 @@ html {
         width: 100% !important;
         margin: 0 !important;
     }
+}
+
+i.fa, i.fas, i.fab {
+    color: inherit !important;
+}
+
+/* Or if you want a specific color */
+i.fa, i.fas, i.fab {
+    color: rgba(0, 0, 0, 0.12) !important; /* or whatever color you want */
 }
