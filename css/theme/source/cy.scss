@@ -646,12 +646,15 @@ html {
 .columns {
     display: flex !important;
     align-items: center !important;
+    flex-direction: column;
 }
 
 .column {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    flex-direction: column;
+    padding: 1vmin;
 }
 
 @media (max-width: 640px) {
