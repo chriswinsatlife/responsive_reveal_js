@@ -1,12 +1,17 @@
-name: CI Workflow
+name: CI/CD Workflow
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  compile-scss:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -32,18 +37,25 @@ jobs:
           npm install node-sass
           npm install sass
           
-      - name: Verify Grunt Installation
-        run: npx grunt --version
-        
-      - name: Run Grunt Tasks
+      - name: Build Project
         run: |
           npx grunt sass --force
           npx grunt autoprefixer --force
           npx grunt cssmin --force
           
-      - name: Commit and Push if changed
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add css/theme/*.css
-          git diff --staged --quiet || (git commit -m "chore: compile SCSS to CSS [skip ci]" && git push)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
