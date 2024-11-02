@@ -23,7 +23,7 @@ Financial incentives might be the key to helping smokers kick the habit. Let's d
 ### The title text goes here.
 :::
 ::: {.column width="40%"}
-![](istockphoto-93435662-612x612.jpg){style="background-color: #e83e8c; padding: 1em; width: 100%; display: inline-block;" alt="Image illustrating smoking cessation motivation"}
+![](istockphoto-93435662-612x612.jpg){style="" alt="Image illustrating smoking cessation motivation"}
 :::
 :::
 
