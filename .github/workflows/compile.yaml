@@ -21,6 +21,11 @@ jobs:
         with:
           node-version: '20'
           
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.549
+          
       - name: Install Dependencies
         run: |
           npm install grunt
@@ -42,6 +47,22 @@ jobs:
           npx grunt sass --force
           npx grunt autoprefixer --force
           npx grunt cssmin --force
+          
+      - name: Render Markdown and Quarto Files
+        run: |
+          for file in *.md; do
+            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "CONTRIBUTING.md" ]; then
+              echo "Processing $file..."
+              quarto render "$file" --to revealjs
+            fi
+          done
+          
+          for file in *.qmd; do
+            if [ -f "$file" ]; then
+              echo "Processing $file..."
+              quarto render "$file" --to revealjs
+            fi
+          done
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
