@@ -767,14 +767,23 @@ html {
  * Navigation Icon Color and Hover
  *********************************************/
 
+/* Change color of the menu icon */
 .slide-menu-button i.fas.fa-bars {
-    color: #333 !important; /* Default color */
+    color: rgba(0, 0, 0, 0.12); /* Replace with your preferred color */
 }
 
-.reveal .slide-menu-button:hover i.fas.fa-bars {
-    color: #555 !important; /* Hover color */
+/* Optional: Change color on hover */
+.slide-menu-button:hover i.fas.fa-bars {
+    color: rgba(48, 48, 48, 0.12); /* Replace with your hover color */
 }
 
+/* Change color of the menu icon using ::before */
 .reveal .slide-menu-button i.fas.fa-bars::before {
-    color: #333 !important;
+    color: #ff5e99 !important; /* Replace with desired color */
+    content: "\f0c9"; /* Unicode for Font Awesome "bars" icon */
+}
+
+/* Optional: Change color on hover */
+.reveal .slide-menu-button:hover i.fas.fa-bars::before {
+    color: #ff8fb1 !important; /* Replace with hover color */
 }
