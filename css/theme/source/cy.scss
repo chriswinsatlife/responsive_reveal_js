@@ -187,8 +187,9 @@ body {
 
 	text-align: left;
 	line-height: 1.6em;
-	font-size: 1rem;
+	font-size: 1.2em;	
 	font-family: $codeFont;
+	
 
 	word-wrap: break-word;
 
@@ -199,7 +200,7 @@ body {
 	font-family: $codeFont;
 	text-transform: none;
 	line-height: 1.6em;
-	font-size: 1rem;
+	font-size: 1.2em;
 }
 
 .reveal pre code {
@@ -214,7 +215,7 @@ body {
 }
 
 .reveal pre code-wrapper {
-	font-size: 1.2rem;
+	font-size: 2em;
 }
 
 .reveal table {
@@ -222,7 +223,7 @@ body {
 	border-collapse: collapse;
 	border-spacing: 0;
 	width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .reveal table th {
@@ -425,7 +426,7 @@ $backgroundColor: rgba(255, 255, 255, 1.0);
 $mainColor: rgb(9, 9, 11);
 $headingColor: rgb(9, 9, 11);
 
-$mainFontSize: 1.2rem;
+$mainFontSize: 2.0vw;
 $mainFont: 'Inter', 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Inter', 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
@@ -436,10 +437,10 @@ $linkColor: rgb(147, 51, 234);
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
 
-$heading1Size: 2.8rem;
-$heading2Size: 2.2rem;
-$heading3Size: 1.6rem;
-$heading4Size: 1.4rem;
+$heading1Size: 3.2em;
+$heading2Size: 2.4em;
+$heading3Size: 1.6em;
+$heading4Size: 1.2em;
 
 section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6, p {
@@ -453,9 +454,10 @@ section.has-dark-background {
 
 // Base font and padding for responsive design
 html {
-	font-size: 16px; // Base size in pixels for better consistency
+	font-size: 1.2vw; // Adjusted base for better readability
 	line-height: 1.4; // Improved line spacing
-  	text-align: left;
+	//padding: 8vmin; // Extra padding to prevent text cutoff
+	text-align: left;
   }
   
   // Adjusted padding and font sizes for readability across viewports
@@ -463,9 +465,10 @@ html {
 	background-color: $backgroundColor;
 	color: $mainColor;
 	font-family: $mainFont;
+	// font-size: 2.0rem; // Body font larger for balance
 	text-align: left;
-	padding: 4vmin;
-	
+	// padding: 12vmin; // Consistent padding on all sides
+  
 	h1, h2, h3, h4 {
 	  font-family: $headingFont;
 	  color: $headingColor;
@@ -475,79 +478,79 @@ html {
 	  margin: 0 0 1rem 0;
 	}
   
-	h1 { font-size: 2.8rem; } 
-	h2 { font-size: 2.2rem; }
-	h3 { font-size: 1.6rem; }
+	h1 { font-size: 3.6rem; } // Reduced headline size for balance
+	h2 { font-size: 2.4rem; }
+	h3 { font-size: 2.0rem; }
 	h4 { font-size: 1.4rem; }
-  
-	p { font-size: 1.2rem; }
+
+	p { font-size: 1.4rem; }
   }
   
   .slides {
   
 	// Padding adjustments for smaller screens
 	@media (max-width: 1024px) {
-	  padding: 5vmin;
+	  padding: 8vmin;
 	}
   
 	@media (max-width: 768px) {
-	  padding: 3vmin;
+	  padding: 6vmin;
 	}
   
 	@media (max-width: 568px) {
-	  padding: 2vmin;
+	  padding: 4vmin;
 	}
   }
   
   // Responsive text sizes for smaller screens
   @media (max-width: 1024px) {
-	html { font-size: 15px; }
+	html { font-size: 2.6vw; }
   
 	.reveal {
 	  padding: 4vmin;
 	}
   
-	h1 { font-size: 2.6rem; }
-	h2 { font-size: 2rem; }
-	h3 { font-size: 1.6rem; }
-	h4 { font-size: 1.4rem; }
+	h1 { font-size: 3.2rem; }
+	h2 { font-size: 2.8rem; }
+	h3 { font-size: 2.2rem; }
+	h4 { font-size: 1.8rem; }
   }
   
   @media (max-width: 768px) {
-	html { font-size: 14px; }
+	html { font-size: 2.5vw; }
   
 	.reveal {
 	  padding: 3vmin;
 	}
   
-	h1 { font-size: 2.4rem; }
-	h2 { font-size: 1.8rem; }
-	h3 { font-size: 1.4rem; }
-	h4 { font-size: 1.2rem; }
+	h1 { font-size: 3rem; }
+	h2 { font-size: 2.6rem; }
+	h3 { font-size: 2.0rem; }
+	h4 { font-size: 1.8rem; }
   }
   
   @media (max-width: 568px) {
-	html { font-size: 13px; }
+	html { font-size: 2.4vw; }
   
 	.reveal {
 	  padding: 2vmin;
 	}
   
-	h1 { font-size: 2.2rem; }
-	h2 { font-size: 1.6rem; }
-	h3 { font-size: 1.2rem; }
-	h4 { font-size: 1rem; }
+	h1 { font-size: 3.0rem; }
+	h2 { font-size: 2.6rem; }
+	h3 { font-size: 2.0rem; }
+	h4 { font-size: 1.8rem; }
   }
   
   // Paragraph and list styling with improved readability
   p, ol, ul, li {
-	margin-bottom: 1rem; // Slightly increased space for readability
+	margin-bottom: 0.8rem; // Reduced space for compact layout
 	width: 100%;
 	text-align: left;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	line-height: 1.6;
 	max-width: 56ch;
-   
+  	// white-space: nowrap;
   }
   
   a {
@@ -558,7 +561,6 @@ html {
   code, pre {
 	font-family: 'Courier Prime', 'Fira Sans', monospace;
 	text-align: left;
-	font-size: 1rem;
   }
   
   ::selection {
@@ -576,22 +578,29 @@ html {
     display: flex;
     flex-direction: column;
 	box-sizing: border-box;
-    padding: 4vmin;
+    padding: 8vmin;
     word-wrap: break-word;
 	overflow: auto; 
     width: 100%;
+	// flex-flow: nowrap;
+	// position: relative !important;
   }
   
   .reveal .slides section {
 	max-width: 100%;
 	margin-right: 0 !important;
-	padding: 2vmin;
+	padding: 4vmin;
     word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
+	// position: relative !important;
+	// display: flex !important;
+	// flex-direction: column !important;
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
+	top: 0vmin;
+	bottom: 0vmin;
 	align-content: center;
   }
 
@@ -606,6 +615,7 @@ html {
 .reveal .slides > section.past {
 	display: flex !important;
 	flex-direction: column;
+	
 }
 
 .reveal a {
@@ -618,7 +628,7 @@ html {
     padding: 10px 18px;
     color: #aaa;
     cursor: pointer;
-    font-size: .9rem;
+    font-size: .8rem;
     width: 88%;
     margin-bottom: 0px;
 }
