@@ -189,9 +189,8 @@ body {
 
 	text-align: left;
 	line-height: 1.6em;
-	font-size: 1.2em;	
+	font-size: 1.2em;
 	font-family: $codeFont;
-	
 
 	word-wrap: break-word;
 
@@ -456,10 +455,9 @@ section.has-dark-background {
 
 // Base font and padding for responsive design
 html {
-	font-size: 1.2vw; // Adjusted base for better readability
+	font-size: 2.5vw; // Adjusted base for better readability
 	line-height: 1.4; // Improved line spacing
-	//padding: 8vmin; // Extra padding to prevent text cutoff
-	text-align: left;
+  	text-align: left;
   }
   
   // Adjusted padding and font sizes for readability across viewports
@@ -467,10 +465,9 @@ html {
 	background-color: $backgroundColor;
 	color: $mainColor;
 	font-family: $mainFont;
-	// font-size: 2.0rem; // Body font larger for balance
 	text-align: left;
-	// padding: 12vmin; // Consistent padding on all sides
-  
+	padding: 6vmin;
+	
 	h1, h2, h3, h4 {
 	  font-family: $headingFont;
 	  color: $headingColor;
@@ -480,11 +477,11 @@ html {
 	  margin: 0 0 1rem 0;
 	}
   
-	h1 { font-size: 3.6rem; } // Reduced headline size for balance
+	h1 { font-size: 3.2rem; } 
 	h2 { font-size: 2.4rem; }
-	h3 { font-size: 2.0rem; }
+	h3 { font-size: 1.8rem; }
 	h4 { font-size: 1.4rem; }
-
+  
 	p { font-size: 1.4rem; }
   }
   
@@ -492,15 +489,15 @@ html {
   
 	// Padding adjustments for smaller screens
 	@media (max-width: 1024px) {
-	  padding: 8vmin;
-	}
-  
-	@media (max-width: 768px) {
 	  padding: 6vmin;
 	}
   
-	@media (max-width: 568px) {
+	@media (max-width: 768px) {
 	  padding: 4vmin;
+	}
+  
+	@media (max-width: 568px) {
+	  padding: 2vmin;
 	}
   }
   
@@ -512,36 +509,36 @@ html {
 	  padding: 4vmin;
 	}
   
-	h1 { font-size: 3.2rem; }
-	h2 { font-size: 2.8rem; }
-	h3 { font-size: 2.2rem; }
-	h4 { font-size: 1.8rem; }
+	h1 { font-size: 3rem; }
+	h2 { font-size: 2.6rem; }
+	h3 { font-size: 2rem; }
+	h4 { font-size: 1.6rem; }
   }
   
   @media (max-width: 768px) {
-	html { font-size: 2.5vw; }
+	html { font-size: 2.4vw; }
   
 	.reveal {
 	  padding: 3vmin;
 	}
   
-	h1 { font-size: 3rem; }
-	h2 { font-size: 2.6rem; }
-	h3 { font-size: 2.0rem; }
-	h4 { font-size: 1.8rem; }
+	h1 { font-size: 2.8rem; }
+	h2 { font-size: 2.4rem; }
+	h3 { font-size: 1.8rem; }
+	h4 { font-size: 1.6rem; }
   }
   
   @media (max-width: 568px) {
-	html { font-size: 2.4vw; }
+	html { font-size: 2.3vw; }
   
 	.reveal {
 	  padding: 2vmin;
 	}
   
-	h1 { font-size: 3.0rem; }
-	h2 { font-size: 2.6rem; }
-	h3 { font-size: 2.0rem; }
-	h4 { font-size: 1.8rem; }
+	h1 { font-size: 2.6rem; }
+	h2 { font-size: 2.2rem; }
+	h3 { font-size: 1.6rem; }
+	h4 { font-size: 1.4rem; }
   }
   
   // Paragraph and list styling with improved readability
@@ -552,7 +549,7 @@ html {
 	font-size: 1.4rem;
 	line-height: 1.6;
 	max-width: 56ch;
-  	// white-space: nowrap;
+   
   }
   
   a {
@@ -580,29 +577,22 @@ html {
     display: flex;
     flex-direction: column;
 	box-sizing: border-box;
-    padding: 8vmin;
+    padding: 4vmin;
     word-wrap: break-word;
 	overflow: auto; 
     width: 100%;
-	// flex-flow: nowrap;
-	// position: relative !important;
   }
   
   .reveal .slides section {
 	max-width: 100%;
 	margin-right: 0 !important;
-	padding: 4vmin;
+	padding: 2vmin;
     word-wrap: break-word;
     overflow-wrap: break-word;
     box-sizing: border-box;
-	// position: relative !important;
-	// display: flex !important;
-	// flex-direction: column !important;
     flex-direction: column;
     text-align: left;
     align-items: flex-start;
-	top: 0vmin;
-	bottom: 0vmin;
 	align-content: center;
   }
 
@@ -617,7 +607,6 @@ html {
 .reveal .slides > section.past {
 	display: flex !important;
 	flex-direction: column;
-	
 }
 
 .reveal a {
