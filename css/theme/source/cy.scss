@@ -586,11 +586,13 @@ html {
 	
 	@media (max-width: 568px) {
 	  .reveal .slides {
-	    width: 100vw;
-	    height: 100vh;
-	    margin: 0;
+	    width: 100vw !important;
+	    height: 100vh !important;
+	    margin: 0 !important;
 	    padding: 0;
-	    transform: none;
+	    transform: none !important;
+	    inset: auto !important;
+            
 	  }
 	}
   
