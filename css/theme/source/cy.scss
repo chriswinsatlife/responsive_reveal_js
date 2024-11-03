@@ -678,25 +678,25 @@ i.fa, i.fas, i.fab {
     color: rgba(0, 0, 0, 0.12) !important; /* or whatever color you want */
 }
 
-/* Change color of the navigation menu icon */
+/* Change color of the menu icon */
 .slide-menu-button i.fas.fa-bars {
-    color: color: rgba(0, 0, 0, 0.12); /* Replace with your preferred color */
+    color: rgba(0, 0, 0, 0.12); /* Replace with your preferred color */
 }
 
 /* Optional: Change color on hover */
 .slide-menu-button:hover i.fas.fa-bars {
-    color:color: rgba(48, 48, 48, 0.12); /* Replace with your hover color */
+    color: rgba(48, 48, 48, 0.12); /* Replace with your hover color */
 }
 
 /* Change color of the menu icon using ::before */
 .reveal .slide-menu-button i.fas.fa-bars::before {
-    color: #ff5e99 !important; /* Replace with desired color */
+    color: rgba(0, 0, 0, 0.12) !important; /* Replace with desired color */
     content: "\f0c9"; /* Unicode for Font Awesome "bars" icon */
 }
 
 /* Optional: Change color on hover */
 .reveal .slide-menu-button:hover i.fas.fa-bars::before {
-    color: #ff8fb1 !important; /* Replace with hover color */
+    color: rgba(48, 48, 48, 0.12) !important; /* Replace with hover color */
 }
 
 /*********************************************
@@ -780,11 +780,11 @@ html {
 
 /* Change color of the menu icon using ::before */
 .reveal .slide-menu-button i.fas.fa-bars::before {
-    color: #ff5e99 !important; /* Replace with desired color */
+    color: rgba(0, 0, 0, 0.12) !important; /* Replace with desired color */
     content: "\f0c9"; /* Unicode for Font Awesome "bars" icon */
 }
 
 /* Optional: Change color on hover */
 .reveal .slide-menu-button:hover i.fas.fa-bars::before {
-    color: #ff8fb1 !important; /* Replace with hover color */
+    color: rgba(48, 48, 48, 0.12) !important; /* Replace with hover color */
 }
