@@ -677,3 +677,13 @@ i.fa, i.fas, i.fab {
 i.fa, i.fas, i.fab {
     color: rgba(0, 0, 0, 0.12) !important; /* or whatever color you want */
 }
+
+/* Change color of the navigation menu icon */
+.slide-menu-button i.fas.fa-bars {
+    color: color: rgba(0, 0, 0, 0.12); /* Replace with your preferred color */
+}
+
+/* Optional: Change color on hover */
+.slide-menu-button:hover i.fas.fa-bars {
+    color:color: rgba(48, 48, 48, 0.12); /* Replace with your hover color */
+}
