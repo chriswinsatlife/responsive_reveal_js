@@ -573,32 +573,40 @@ html {
 	margin-right: 0 !important;
   }
   
-  .reveal .slides {
-	align-items: center;
-    display: flex;
-    flex-direction: column;
-	box-sizing: border-box;
-    padding: 8vmin;
-    word-wrap: break-word;
-	overflow: auto; 
-    width: 100%;
-	// flex-flow: nowrap;
-	// position: relative !important;
-  }
+	.reveal .slides {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  width: 100%;
+	  padding: 2vmin;
+	  box-sizing: border-box;
+	  word-wrap: break-word;
+	  overflow: auto;
+	}
+	
+	@media (max-width: 568px) {
+	  .reveal .slides {
+	    width: 100vw;
+	    height: 100vh;
+	    margin: 0;
+	    padding: 0;
+	    transform: none;
+	  }
+	}
   
   .reveal .slides section {
 	max-width: 100%;
 	margin-right: 0 !important;
-	padding: 4vmin;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    box-sizing: border-box;
+	padding: 8vmin;
+    	word-wrap: break-word;
+    	overflow-wrap: break-word;
+    	box-sizing: border-box;
 	// position: relative !important;
 	// display: flex !important;
 	// flex-direction: column !important;
-    flex-direction: column;
-    text-align: left;
-    align-items: flex-start;
+    	flex-direction: column;
+    	text-align: left;
+    	align-items: flex-start;
 	top: 0vmin;
 	bottom: 0vmin;
 	align-content: center;
