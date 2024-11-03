@@ -72,6 +72,8 @@ body {
 	text-shadow: $headingTextShadow;
 
 	word-wrap: break-word;
+
+	width: 100%;
 }
 
 .reveal h1 {font-size: $heading1Size; }
@@ -91,6 +93,7 @@ body {
 .reveal p {
 	margin: $blockMargin 0;
 	line-height: 1.6;
+	width: 100%;
 }
 
 /* Ensure certain elements are never larger than the slide itself */
@@ -503,7 +506,7 @@ html {
   
   // Responsive text sizes for smaller screens
   @media (max-width: 1024px) {
-	html { font-size: 1.6vw; }
+	html { font-size: 2.6vw; }
   
 	.reveal {
 	  padding: 4vmin;
@@ -516,7 +519,7 @@ html {
   }
   
   @media (max-width: 768px) {
-	html { font-size: 1.5vw; }
+	html { font-size: 2.5vw; }
   
 	.reveal {
 	  padding: 3vmin;
@@ -529,7 +532,7 @@ html {
   }
   
   @media (max-width: 568px) {
-	html { font-size: 1.4vw; }
+	html { font-size: 2.4vw; }
   
 	.reveal {
 	  padding: 2vmin;
