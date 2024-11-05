@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Study Breakdown Slide Deck</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css">
-    <link rel="stylesheet" href="css/theme/cy.css" id="theme">
+    <!-- Load Reveal.js core CSS -->
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/cy.css" id="theme"> <!-- Custom theme CSS -->
+    <!-- Import Inter font from Google Fonts -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
     </style>
@@ -13,7 +15,8 @@
   <body>
     <div class="reveal">
       <div class="slides">
-          <section data-markdown="ai_slides2.md"
+        <!-- Load dynamically named Markdown file -->
+          <section data-markdown="ai_slides.md"
             data-separator="^\n---\n$"
             data-separator-vertical="^--$"
             data-separator-notes="^Note:"
@@ -21,10 +24,11 @@
           </section>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/markdown/markdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/notes/notes.min.js"></script>
+    <!-- Load Reveal.js and its plugins -->
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/notes/notes.js"></script>
 		
     <script>
       Reveal.initialize({
