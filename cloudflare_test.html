@@ -2,11 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Study Breakdown Slide Deck</title>
     <!-- Load Reveal.js core CSS -->
+    <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/cy.css" id="theme"> <!-- Custom theme CSS -->
+    <link rel="stylesheet" href="css/theme/cy.css" id="theme"> <!-- Custom theme CSS -->
+	  <!-- Theme used for syntax highlighting of code -->
+	  <link rel="stylesheet" href="plugin/highlight/monokai.css">
     <!-- Import Inter font from Google Fonts -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
@@ -24,15 +29,18 @@
           </section>
       </div>
     </div>
-    <!-- Load Reveal.js and its plugins -->
-    <script src="dist/reveal.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
-    <script src="plugin/highlight/highlight.js"></script>
-    <script src="plugin/notes/notes.js"></script>
+
+	<!-- Load Reveal.js and its plugins -->
+    	<script src="dist/reveal.js"></script>
+	<script src="plugin/zoom/zoom.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
 		
     <script>
       Reveal.initialize({
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ],
         width: "100%",
         height: "100%",
         margin: 0.00,
