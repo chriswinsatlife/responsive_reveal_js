@@ -49,7 +49,7 @@ jobs:
           for file in *.md; do
             if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "CONTRIBUTING.md" ] && [ "$file" != "LICENSE.md" ]; then
               echo "Processing $file..."
-              if ! quarto render "$file" --to revealjs -s -o; then
+              if ! quarto render "$file" --to revealjs; then
                 echo "Warning: Failed to process $file, skipping..."
                 continue
               fi
@@ -59,7 +59,7 @@ jobs:
           for file in *.qmd; do
             if [ -f "$file" ]; then
               echo "Processing $file..."
-              if ! quarto render "$file" --to revealjs -s -o; then
+              if ! quarto render "$file" --to revealjs; then
                 echo "Warning: Failed to process $file, skipping..."
                 continue
               fi
