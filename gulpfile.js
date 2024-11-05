@@ -281,7 +281,8 @@ gulp.task('package', gulp.series(async () => {
         './index.html',
         './dist/**',
         './plugin/**',
-        './*/*.md'
+        './*/*.md',
+        './*/*.qmd'
     ];
 
     if (fs.existsSync('./lib')) dirs.push('./lib/**');
@@ -309,6 +310,7 @@ gulp.task('serve', () => {
     gulp.watch([
         slidesRoot + '**/*.html',
         slidesRoot + '**/*.md',
+        slidesRoot + '**/*.qmd',
         `!${slidesRoot}**/node_modules/**`, // ignore node_modules
     ], gulp.series('reload'))
 
