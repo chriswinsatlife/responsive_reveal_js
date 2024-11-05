@@ -69,6 +69,7 @@ body {
 	letter-spacing: $headingLetterSpacing;
 
 	text-transform: $headingTextTransform;
+	text-transform: none !important;
 	text-shadow: $headingTextShadow;
 
 	word-wrap: break-word;
@@ -198,7 +199,7 @@ body {
 
 .reveal code {
 	font-family: $codeFont;
-	text-transform: none;
+	text-transform: none !important;
 	line-height: 1.6em;
 	font-size: 1.2em;
 }
