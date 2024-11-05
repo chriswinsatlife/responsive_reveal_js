@@ -28,25 +28,21 @@ jobs:
           
       - name: Install Dependencies
         run: |
-          npm install grunt
-          npm install grunt-cli
-          npm install load-grunt-tasks
-          npm install grunt-contrib-uglify
-          npm install grunt-contrib-qunit
-          npm install grunt-contrib-connect
-          npm install grunt-contrib-cssmin
-          npm install grunt-contrib-jshint
-          npm install grunt-autoprefixer
-          npm install grunt-zip
-          npm install grunt-sass
-          npm install node-sass
+          npm install gulp
+          npm install gulp-cli
+          npm install @rollup/plugin-babel @rollup/plugin-commonjs @rollup/plugin-node-resolve @rollup/plugin-terser
+          npm install gulp-zip gulp-header-comment gulp-eslint gulp-clean-css gulp-connect gulp-autoprefixer
           npm install sass
+          npm install through2
+          npm install yargs
+          npm install glob
+          npm install node-qunit-puppeteer
           
       - name: Build Project
         run: |
-          npx grunt sass --force
-          npx grunt autoprefixer --force
-          npx grunt cssmin --force
+          npx gulp css
+          npx gulp js
+          npx gulp plugins
           
       - name: Render Markdown and Quarto Files
         run: |
