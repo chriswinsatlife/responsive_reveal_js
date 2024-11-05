@@ -1,0 +1,87 @@
+name: Grunt CI/CD Workflow
+on:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.549
+          
+      - name: Set up Pandoc
+        uses: r-lib/actions/setup-pandoc@v2
+          
+      - name: Install Dependencies
+        run: |
+          npm install grunt
+          npm install grunt-cli
+          npm install load-grunt-tasks
+          npm install grunt-contrib-uglify
+          npm install grunt-contrib-qunit
+          npm install grunt-contrib-connect
+          npm install grunt-contrib-cssmin
+          npm install grunt-contrib-jshint
+          npm install grunt-autoprefixer
+          npm install grunt-zip
+          npm install grunt-sass
+          npm install node-sass
+          npm install sass
+          
+      - name: Build Project
+        run: |
+          npx grunt sass --force
+          npx grunt autoprefixer --force
+          npx grunt cssmin --force
+          
+      - name: Render Markdown and Quarto Files
+        run: |
+          for file in *.md; do
+            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "CONTRIBUTING.md" ] && [ "$file" != "LICENSE.md" ]; then
+              echo "Processing $file..."
+              if ! quarto render "$file" --to revealjs; then
+                echo "Warning: Failed to process $file, skipping..."
+                continue
+              fi
+            fi
+          done
+          
+          for file in *.qmd; do
+            if [ -f "$file" ]; then
+              echo "Processing $file..."
+              if ! quarto render "$file" --to revealjs; then
+                echo "Warning: Failed to process $file, skipping..."
+                continue
+              fi
+            fi
+          done
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
