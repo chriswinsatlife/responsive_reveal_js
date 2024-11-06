@@ -1,291 +1,428 @@
 ---
-title: "Introduction to Habit Formation"
+title: "Designing Effective Habit Formation Interventions"
 subtitle: ""
 format:
   revealjs:
     slide-number: false
     preview-links: auto
-    css: css/theme/cy.css
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
+    footer: "<https://besci.org>"
+    css: "css/theme/cy.css"
 ---
 
-## Habits: Your Brain's Autopilot (Whether You Like It or Not)
+## Designing Effective Habit Formation Interventions
 
-::: {.columns}
+Designing Effective Habit Formation Interventions
+
+Dr. [Your Name]
+
+[Your Organization]
+
+---
+
+## What You'll Discover Today
+
+- Unveil the psychology that shapes habits
+- Dissect the essentials of effective interventions
+- Master strategies for enduring behavior change
+- Analyze what drives long-term success
+
+---
+
+## Habits: The Invisible Force Guiding You
+
+::: columns
 
 ::: {.column width="50%"}
-Habits are your brain's way of automating repetitive behaviors to conserve mental energy. By responding automatically to familiar cues, you free up cognitive resources for more complex tasks. Up to **40% of your daily actions are habitual** (Wood et al., 2002). It's efficient, but sometimes your autopilot takes you places you'd rather not go.
-:::
-
-::: {.column width="50%"}
-![](path/to/image/of/person/brushing/teeth.jpg)
-:::
-
-:::
-
----
-
-## The Unseen Force Behind Your Health Choices
-
-::: {.columns}
-
-::: {.column width="33%"}
-**Automaticity**  
-Once established, habits require little to no conscious thought.
-:::
-
-::: {.column width="33%"}
-**Persistence**  
-They stick around even when your motivation takes a nosedive.
-:::
-
-::: {.column width="33%"}
-**Efficiency**  
-Habits let you handle routine tasks while saving mental bandwidth for new challenges.
-:::
-
-:::
-
-> A 2006 study by Wood et al. found that **45% of daily behaviors are repeated in the same location almost every day**.
-
----
-
-## The Four Steps to Building a Habit
-
-1. **Cue**  
-   The trigger that tells your brain to initiate a behavior.
-2. **Craving**  
-   The motivational force that drives you to act.
-3. **Response**  
-   The actual behavior you perform.
-4. **Reward**  
-   The benefit that reinforces the behavior.
-
----
-
-## Repetition in Context: The Habit Sweet Spot
-
-::: {.columns}
-
-::: {.column width="50%"}
-Habits don't form just by repeating a behavior—they form by repeating it in the same context. Consistent cues strengthen the link between context and action. According to Lally et al. (2010), it takes an average of **66 days** for a behavior to become automatic, but times vary widely—from **18 to 254 days**.
+Nearly 45% of your daily actions are habitual (Wood & Neal, 2007). Ignore habits, and you overlook almost half of your behavior. Without targeting habit formation, behavior change efforts slip away. Harnessing habits unlocks lasting change in health and beyond.
 :::
 
 ::: {.column width="50%"}
-![](path/to/image/illustrating/repetition/over/time.jpg)
+![](path/to/your/image.jpg){fig-align="right" width="100%"}
 :::
 
 :::
 
 ---
 
-## Linking Triggers to Actions
+## Decoding What a Habit Really Is
 
-> "Habits are, simply, reliable solutions to recurring problems in our environment."
-> — Jason Hreha, Applied Behavioral Scientist
-
----
-
-## From Effort to Instinct: How Habits Become Automatic
-
-::: {.columns}
-
-::: {.column width="50%"}
-With consistent repetition, behaviors shift from deliberate actions to automatic responses. This transition follows an asymptotic curve—rapid gains in automaticity at first, slowing over time as you approach peak efficiency. The speed and degree of automaticity differ for each person and habit.
-:::
-
-::: {.column width="50%"}
-![](path/to/graph/showing/asymptotic/curve.jpg)
-:::
-
-:::
+- Automatic reactions to familiar cues
+- Built through repeated actions in consistent settings
+- Operate with minimal conscious thought
+- Fundamental for sustaining long-term behaviors
 
 ---
 
-## Engineering Lasting Habits
+## The Four Steps to Building Habits
 
-- **Emphasize Contextual Repetition**  
-  Repeating behaviors in consistent settings strengthens habits.
-- **Craft "If-Then" Plans**  
-  Use implementation intentions to link cues to actions.
-- **Leverage Reminders Strategically**  
-  Employ cues and prompts without becoming dependent on them.
-- **Anchor to Existing Routines**  
-  Build new habits onto established behaviors.
-- **Monitor Your Progress**  
-  Self-tracking reinforces commitment and reveals patterns.
+1. **Initiate the New Behavior**
+2. **Repeat Consistently in the Same Context**
+3. **Develop Automaticity Over Time**
+4. **Reinforce with Environmental Cues**
 
 ---
 
-## "If This Happens, Then I'll Do That"
+## How Your Mind Forms Habits
 
-::: {.columns}
-
-::: {.column width="50%"}
-Implementation intentions tie a specific situation (cue) to a desired action. For example:  
-**"If** it's 7 AM **then** I'll take my medication with breakfast."
-
-This simple formula increases the likelihood of following through. Gollwitzer & Sheeran's (2006) meta-analysis of 94 studies found that implementation intentions significantly boost goal achievement.
-:::
-
-::: {.column width="50%"}
-![](path/to/image/illustrating/if-then/concept.jpg)
-:::
-
-:::
+- Habits skip over conscious decision-making
+- Rely on strong cue-behavior links
+- Strengthened through repetition and rewards
+- Shaped by cognitive and motivational factors
 
 ---
 
-## Cue Selection: The Bedrock of Habit Building
+## Initiating New Behaviors: Where It All Begins
 
-::: {.columns}
+Every journey starts with a decision to act. To kickstart new behaviors:
 
-::: {.column width="33%"}
-**Salience**  
-Pick cues that are hard to miss in your environment.
-:::
-
-::: {.column width="33%"}
-**Consistency**  
-Use cues that occur reliably in your daily routine.
-:::
-
-::: {.column width="33%"}
-**Specificity**  
-The more precise the cue, the better it triggers the habit.
-:::
-
-:::
+- **Set Clear Intentions**: Define exactly what you'll do
+- **Boost Motivation**: Understand the 'why' behind the action
+- **Build Confidence**: Start small to achieve early wins
 
 ---
 
-## Jumpstarting Your Habit Before It Runs on Its Own
+## Consistency Is King: Repetition Matters
 
-::: {.columns}
-
-::: {.column width="50%"}
-Repetition is key, but in the early days, motivation and deliberate action matter. Goal-setting, planning, and self-monitoring bridge the gap until the habit takes over. Gardner et al. (2020) suggest these strategies help transform intentions into consistent actions.
-:::
-
-::: {.column width="50%"}
-![](path/to/image/representing/willpower.jpg)
-:::
-
-:::
+- Repetition strengthens cue-behavior bonds
+- Same context accelerates habit formation
+- Inconsistent settings slow progress
+- Aim for regularity in time and place
 
 ---
 
-## Tech Tools to Hack Your Habits
+## Using Cues to Trigger Habits
 
-::: {.columns}
+**Event-Based Cues**
 
-::: {.column width="33%"}
-**Habit-Tracking Apps**  
-Tools like Habitica and Streaks gamify your progress.
-:::
+- Tie actions to daily events
+- *Example:* "After I wake up..."
 
-::: {.column width="33%"}
-**Smart Reminders**  
-Timely notifications keep you on track without much effort.
-:::
+**Location-Based Cues**
 
-::: {.column width="33%"}
-**Wearable Devices**  
-Gadgets that monitor behavior and provide feedback.
-:::
+- Use places as triggers
+- *Example:* "In my home office..."
 
-:::
+**Time-Based Cues**
+
+- Set specific times
+- *Example:* "At precisely 7 AM..."
 
 ---
 
-## When Your New Habit Hits a Brick Wall
+## Why Rewards Matter in Habit Building
 
-- **Inconsistent Environments**  
-  Changing contexts can disrupt cue-behavior links.
-- **Competing Habits**  
-  Old routines can crowd out new behaviors.
-- **Delayed Rewards**  
-  Lack of immediate gratification weakens motivation.
-- **Willpower Fatigue**  
-  Relying solely on self-control is a recipe for failure.
-- **Impatience**  
-  Underestimating the time needed to form a habit leads to frustration.
+Positive reinforcement fuels habit formation. Strategies include:
+
+- **Intrinsic Rewards**: Personal satisfaction or joy
+- **Extrinsic Rewards**: Tangible incentives or praise
+- **Progress Tracking**: Visualize achievements to stay motivated
 
 ---
 
-## Breaking Bad (Habits)
+## Disrupting and Replacing Unwanted Behaviors
 
-::: {.columns}
-
-::: {.column width="50%"}
-Dismantling old habits isn't just about saying "no." Effective strategies include:
-
-1. **Rewriting Triggers**  
-   Alter or avoid cues that spark unwanted behaviors.
-2. **Swapping Behaviors**  
-   Introduce new actions that fulfill the same need.
-3. **Reshaping Your Environment**  
-   Make undesirable habits hard and desirable ones easy.
-
-Verplanken & Wood (2006) note that major life changes can be prime opportunities to overhaul habits.
-:::
-
-::: {.column width="50%"}
-![](path/to/image/representing/breaking/chain.jpg)
-:::
-
-:::
+- Identify and modify triggers that spark bad habits
+- Introduce obstacles to make undesired actions harder
+- Swap old cues with new, positive ones
+- Use reminders to prompt healthier choices
 
 ---
 
-## Do Habits Really Stick? The Long View
+## Out with the Old, In with the New
 
-::: {.columns}
+Eliminating a bad habit isn't enough; replace it with a good one:
 
-::: {.column width="50%"}
-While short-term results are encouraging, long-term effectiveness of habit-based interventions is mixed. Beeken et al. (2017) found that initial weight loss gains from habit-focused programs weren't sustained over 24 months. Yet, the underlying theory suggests habits could support lasting change if we crack the code.
-:::
-
-::: {.column width="50%"}
-![](path/to/graph/comparing/short-term/vs/long-term/outcomes.jpg)
-:::
-
-:::
+- **Introduce Positive Behaviors**: Focus on what to do, not what to avoid
+- **Be Consistent**: Repeat actions until they stick
+- **Reinforce Positives**: Celebrate small victories to encourage continuation
 
 ---
 
-## The Uncharted Territory of Habit Science
+## Stable Environments Strengthen Habits
 
-- **Optimal Intervention Length**  
-  How long do we need to focus on a new habit for it to stick?
-- **Individual Differences**  
-  Why do some people form habits faster than others?
-- **Brain Mechanics**  
-  Unveiling the neurological pathways of habit formation.
-- **Habit Interactions**  
-  Managing multiple new habits without overload.
-- **Social and Environmental Impact**  
-  How do our surroundings help or hinder habit development?
+- Consistent surroundings boost habit formation
+- Disruptions can derail progress
+- Establish routines in fixed settings
+- Anticipate and plan for context changes
 
 ---
 
-## Harnessing the Power of Habit for Lasting Change
+## Making Habits Stick Everywhere
 
-> "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
-> — Will Durant (often misattributed to Aristotle)
+To ensure habits endure:
 
-Your daily habits shape your health and your life. By understanding how habits form, you can take control—designing routines that propel you toward your goals rather than hold you back.
+- **Apply Behaviors Across Settings**: Practice in various environments
+- **Use Unique Cues**: Tailor triggers to each context
+- **Maintain Consistency**: Stay the course despite changes
+
+---
+
+## Why Repetition in Context Matters
+
+- Repeating actions in the same context cements habits
+- Early repetitions have the biggest impact
+- Skipping sessions slows down habit formation
+- Persistence is your best ally
+
+---
+
+## Selecting the Right Cues
+
+**Noticeable Cues**
+
+- Stand out in your environment
+- *Example:* Bright stickers on your mirror
+
+**Frequent Cues**
+
+- Occur regularly in your day
+- *Example:* Daily meals as triggers
+
+**Consistent Cues**
+
+- Stable and unchanging elements
+- *Example:* Your morning alarm
+
+---
+
+## Implementation Intentions: Your Habit Blueprint
+
+Create clear plans linking situations to actions:
+
+- *'If it's lunchtime, then I'll take a 10-minute walk.'*
+- Increases the chances you'll follow through
+- Simplifies decisions, reducing willpower needed
+
+---
+
+## Habit Replacement Techniques
+
+- Pinpoint triggers of unwanted habits
+- Develop positive behaviors to perform instead
+- Practice new actions consistently when triggers appear
+- Reinforce the new habit to make it stick
+
+---
+
+## Success Stories in Habit Formation
+
+Well-designed interventions show:
+
+- Significant and lasting behavior changes
+- Habits sustained over months or years
+- Strategies applicable to various behaviors
+
+These cases highlight the real impact of habit techniques.
+
+---
+
+## Turning Flossing into a Daily Habit
+
+Judah et al. (2012) found that flossing after brushing led to stronger habits:
+
+- Participants flossed more consistently
+- Habits lasted even after 8 months
+- Integrating flossing into an existing routine made the difference
+
+---
+
+## 'Ten Top Tips'—A Habit-Based Approach
+
+Lally et al. (2008) introduced simple daily habits for weight loss:
+
+- Encouraged consistent, manageable behaviors
+- Participants lost an average of 2 kg in 8 weeks
+- Demonstrated the power of habit-focused interventions
+
+---
+
+## When Habits Don't Stick: What's at Play?
+
+- Habits can fade without ongoing reinforcement
+- Life changes can disrupt established habits
+- Individual differences affect habit-building speed
+- Long-term support mechanisms are crucial
+
+---
+
+## Lessons from Broad Research Reviews
+
+Meta-analyses reveal key success factors:
+
+- Consistent, frequent repetition is vital
+- Salient and consistent cues enhance habit formation
+- Integrating behaviors into daily routines is effective
+
+Leveraging these insights improves intervention outcomes.
+
+---
+
+## What Makes Habit Interventions Work
+
+- High repetition frequency in stable contexts
+- Thoughtful selection of effective cues
+- Reinforcement strategies that motivate
+- Support systems to maintain momentum
+
+---
+
+## Limitations in Current Habit Research
+
+- Short study durations miss long-term effects
+- Lack of standardized measures for habit strength
+- Underrepresentation of diverse groups
+- Limited data on how habits decay over time
+
+---
+
+## The Science Driving Habit Models
+
+Habits are grounded in psychological theories:
+
+- **Dual-Process Models**: Automatic vs. deliberate processes
+- **Reinforcement Learning**: Behavior shaped by rewards
+- **Cue-Dependent Learning**: Context triggers behavior
+
+Understanding these helps craft better interventions.
+
+---
+
+## What's Happening in Your Brain
+
+- Habits lighten cognitive load
+- Rely on procedural memory systems
+- Allow multitasking by automating actions
+- Can override conscious intentions
+
+---
+
+## Keeping the Fire Alive
+
+While habits run on autopilot, motivation sparks them:
+
+- **Intrinsic Motivation**: Personal value accelerates habit formation
+- **Self-Regulation**: Discipline sustains behaviors until they become automatic
+- **Goal Setting**: Provides direction and purpose
+
+---
+
+## Leveraging Technology to Build Habits
+
+Technology can supercharge habit formation:
+
+- **Apps**: Offer prompts, reminders, and tracking
+- **Wearables**: Provide instant feedback
+- **Online Communities**: Create support networks
+
+Digital tools make habit building more accessible and engaging.
+
+---
+
+## Tech Solutions for Medication Habits
+
+- Apps send timely reminders to take meds
+- Promote consistent adherence to prescriptions
+- Lead to better long-term health outcomes
+- One study showed a 20% increase in adherence among users
+
+---
+
+## Pros and Cons of Digital Interventions
+
+- **Advantages:**
+  - Scalable and easily accessible
+  - Personalization enhances effectiveness
+  - Real-time data for feedback and adjustment
+- **Drawbacks:**
+  - User engagement can wane over time
+  - Privacy and data security concerns
+  - Requires a certain level of tech savvy
+
+---
+
+## The Longevity of Habits
+
+Research examines if habits stand the test of time:
+
+- Habits can persist if regularly reinforced
+- Changes in life circumstances may weaken them
+- Ongoing motivation influences durability
+- Maintenance strategies are key to long-term success
+
+---
+
+## What Decades of Data Show
+
+- Some habits endure over years without effort
+- Others fade without continued reinforcement
+- Individual differences play a significant role
+- Support and reminders enhance habit longevity
+
+---
+
+## Factors Influencing Habit Durability
+
+- **Reinforcement**: Positive outcomes keep you engaged
+- **Stable Contexts**: Consistent environments reinforce habits
+- **Personal Traits**: Resilience and adaptability matter
+- **Continuous Motivation**: A strong 'why' sustains effort
+
+---
+
+## Key Takeaways to Remember
+
+- Habits are automatic actions built through repetition
+- Effective interventions use cues and consistent settings
+- Success hinges on repetition, cues, and reinforcement
+- Long-term maintenance demands ongoing support and motivation
+
+---
+
+## Applying These Insights Today
+
+As professionals, you can:
+
+- **Integrate Habit Strategies**: Embed them into your programs
+- **Customize Cues and Contexts**: Tailor to your audience's lives
+- **Leverage Technology**: Employ digital tools for support
+- **Plan for the Long Haul**: Establish maintenance strategies
+
+---
+
+## Future Directions in Habit Research
+
+- Undertake longer studies on habit sustainability
+- Explore habit formation in diverse populations
+- Investigate how technology impacts habit strength
+- Develop standardized tools for measuring habits
+
+---
+
+## Questions & Discussion
+
+Ready to dive deeper? Your thoughts and questions are welcome.
 
 ---
 
 ## References
 
-- Beeken, R. J., et al. (2017). *A brief intervention for weight control based on habit-formation theory delivered through primary care: results from a randomised controlled trial*. International Journal of Obesity, 41(2), 246-254.
-- Gardner, B., et al. (2012). *Making health habitual: the psychology of 'habit-formation' and general practice*. British Journal of General Practice, 62(605), 664-666.
-- Gardner, B., et al. (2020). *Habit formation and behavior change*. Oxford Research Encyclopedia of Psychology.
-- Gollwitzer, P. M., & Sheeran, P. (2006). *Implementation intentions and goal achievement: A meta‐analysis of effects and processes*. Advances in Experimental Social Psychology, 38, 69-119.
-- Lally, P., et al. (2010). *How are habits formed: Modelling habit formation in the real world*. European Journal of Social Psychology, 40(6), 998-1009.
-- Stawarz, K., et al. (2017). *Unintended consequences of habit formation in the real world: A qualitative study*. BMC Psychology, 5(1), 1-11.
-- Verplanken, B., & Wood, W. (2006). *Interventions to break and create consumer habits*. Journal of Public Policy & Marketing, 25(1), 90-103.
-- Wood, W., & Neal, D. T. (2007). *A new look at habits and the habit–goal interface*. Psychological Review, 114(4), 843-863.
-- Wood, W., et al. (2002). *The habitual consumer*. Journal of Consumer Research, 29(4), 562-576.
+- Gardner, B. (2013). A Review and Analysis of the Use of 'Habit' in Understanding, Predicting and Influencing Health-Related Behaviour.
+- Judah, G., Gardner, B., & Aunger, R. (2012). Forming a Flossing Habit.
+- Lally, P., et al. (2011). Experiences of Habit Formation.
+
+---
+
+## References
+
+- Diefenbacher, S. (2022). Habit Formation in Context.
+- Harvey, J. (2022). Applying the Science of Habit Formation.
+- Robinson, E. (2022). A Machine Learning Assisted Review.
+
+---
+
+## Thank You
+
+Thank you for your time and attention.
+
+---
