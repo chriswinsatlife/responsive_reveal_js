@@ -42,9 +42,9 @@ jobs:
           npm install yargs
           npm install glob
           npm install node-qunit-puppeteer
-          npm install decktape  # Decktape installation
-          npm install express  # Install Express for custom server
-      
+          # Removed: npm install decktape
+          # Removed: npm install express
+    
       # 6. Build Project with Gulp
       - name: Build Project
         run: |
@@ -81,118 +81,33 @@ jobs:
           echo "Listing files after rendering:"
           ls -R
 
-      # 9. **Copy Missing Resources to Expected Relative Paths**
-      - name: Copy Missing Resources
-        run: |
-          # Define an associative array mapping absolute URL paths to actual file locations in the repository
-          declare -A paths=(
-            ["/lib/font/inter/inter.css"]="lib/font/inter/inter.css"
-            ["/path/to/your/image.jpg"]="path/to/your/image.jpg"
-            ["/path/to/nathan_image.jpg"]="path/to/nathan_image.jpg"
-            ["/path/to/alien_intelligence_image.jpg"]="path/to/alien_intelligence_image.jpg"
-            ["/path/to/global_healthcare_image.jpg"]="path/to/global_healthcare_image.jpg"
-            ["/path/to/ai_legal_aid_image.jpg"]="path/to/ai_legal_aid_image.jpg"
-            ["/path/to/hope_caution_image.jpg"]="path/to/hope_caution_image.jpg"
-            ["/path/to/ai_news_sources_image.jpg"]="path/to/ai_news_sources_image.jpg"
-            ["/path/to/kristen_image.jpg"]="path/to/kristen_image.jpg"
-            ["/path/to/credit_karma_image.jpg"]="path/to/credit_karma_image.jpg"
-            ["/path/to/credit_karma_implementation.jpg"]="path/to/credit_karma_implementation.jpg"
-            ["/path/to/one_medical_image.jpg"]="path/to/one_medical_image.jpg"
-            ["/path/to/one_medical_implementation.jpg"]="path/to/one_medical_implementation.jpg"
-            ["/path/to/urgency_image.jpg"]="path/to/urgency_image.jpg"
-            ["/path/to/adwords_image.jpg"]="path/to/adwords_image.jpg"
-            ["/path/to/adwords_implementation.jpg"]="path/to/adwords_implementation.jpg"
-            ["/path/to/contact_image.jpg"]="path/to/contact_image.jpg"
-            ["/path/to/neural-networks.jpg"]="path/to/neural-networks.jpg"
-            ["/path/to/sustainability-image.jpg"]="path/to/sustainability-image.jpg"
-            # Add more mappings as needed based on your 404 errors
-          )
+      # 9. **(Removed) Copy Missing Resources to Expected Relative Paths**
+      # Since Decktape is removed, this step is no longer necessary.
 
-          for abs_path in "${!paths[@]}"; do
-            src="${paths[$abs_path]}"
-            # Remove leading '/' to make it relative to the repository root
-            rel_path="${abs_path#/}"
-            dest_path=$(dirname "${rel_path}")
-            dest_file=$(basename "${rel_path}")
-            mkdir -p "$dest_path"
-            if [ -f "$src" ]; then
-              cp "$src" "$dest_path/$dest_file"
-              echo "Copied $src to $dest_path/$dest_file"
-            else
-              echo "Warning: Source file $src does not exist, skipping."
-            fi
-          done
+      # 10. **(Removed) Create Express Server Script**
+      # Since Decktape is removed, this step is no longer necessary.
 
-      # 10. **List Files After Copying Resources (Debugging)**
-      - name: List Files After Copying Resources
-        run: |
-          echo "Listing files after copying resources:"
-          ls -R
+      # 11. **(Removed) Start Express Server in Background**
+      # Since Decktape is removed, this step is no longer necessary.
 
-      # 11. **Create Express Server Script**
-      - name: Create Express Server
-        run: |
-          cat <<EOF > server.js
-          const express = require('express');
-          const path = require('path');
-          const app = express();
-          const PORT = 8080;
+      # 12. **(Removed) Wait for Server to Start**
+      # Since Decktape is removed, this step is no longer necessary.
 
-          // Serve static files from repository root
-          app.use(express.static(path.join(__dirname, '.')));
+      # 13. **(Removed) Generate PDFs with Decktape**
+      # Since Decktape is removed, this step is no longer necessary.
 
-          // Handle all other routes (for single-page applications)
-          app.get('*', (req, res) => {
-            res.sendFile(path.join(__dirname, 'index.html'));
-          });
+      # 14. **(Removed) Terminate Express Server**
+      # Since Decktape is removed, this step is no longer necessary.
 
-          app.listen(PORT, () => {
-            console.log(\`Server is running on port \${PORT}\`);
-          });
-          EOF
+      # 15. **(Removed) List Generated PDFs (Debugging)**
+      # Since Decktape is removed, this step is no longer necessary.
 
-      # 12. **Start Express Server in Background**
-      - name: Start Express Server
-        run: |
-          node server.js &
-          echo $! > server.pid
+      # 16. **(Removed) Upload PDFs as Artifacts**
+      # Since Decktape is removed, this step is no longer necessary.
 
-      # 13. **Wait for Server to Start**
-      - name: Wait for Server
-        run: sleep 5
-
-      # 14. **Generate PDFs with Decktape**
-      - name: Generate PDFs
-        run: |
-          mkdir -p pdfs
-          for file in *.html; do
-            if [ -f "$file" ]; then
-              echo "Generating PDF for $file..."
-              filename_without_ext="${file%.*}"
-              npx decktape automatic \
-                --size 1280x720 \
-                --pause 1000 \
-                "http://localhost:8080/$file" \
-                "pdfs/${filename_without_ext}.pdf"
-            fi
-          done
-
-      # 15. **Terminate Express Server**
-      - name: Terminate Express Server
-        run: kill $(cat server.pid)
-
-      # 16. **List Generated PDFs (Debugging)**
-      - name: List Generated PDFs
-        run: |
-          echo "Listing generated PDFs:"
-          ls -la pdfs
-          
-      # 17. **Upload PDFs as Artifacts**
-      - name: Upload PDFs Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: pdfs
-          path: pdfs/
+      # 17. **(Optional) Additional Steps**
+      # If you have other steps related to deployment or testing, ensure they remain intact.
+      
   deploy:
     needs: build
     runs-on: ubuntu-latest
