@@ -32,9 +32,8 @@ These are the speaker notes. They are two sentences.
   - Bullet 1
   - Bullet 2
 
-::: {.notes}
-These are the Quarto-style speaker notes.
-:::
+Note: 
+These are the speaker notes. They are four sentences on this slide. They add a great deal to the presentation. Providing additional context is important. 
 
 ---
 
@@ -61,7 +60,7 @@ Only one sentence of speaker notes here.
   - Bullet 2
 
 Note: 
-Sometimes speaker notes can be quite long. More than two sentences, even. In this case, they are three.
+Sometimes speaker notes can be long. More than two sentences, even. In this case, they are three.
 
 ---
 
