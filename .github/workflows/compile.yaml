@@ -11,21 +11,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1. Checkout the repository
       - uses: actions/checkout@v4
       
+      # 2. Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           
+      # 3. Setup Quarto
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.4.549
           
+      # 4. Setup Pandoc
       - name: Set up Pandoc
         uses: r-lib/actions/setup-pandoc@v2
           
+      # 5. Install Dependencies
       - name: Install Dependencies
         run: |
           npm install gulp
@@ -37,14 +42,16 @@ jobs:
           npm install yargs
           npm install glob
           npm install node-qunit-puppeteer
-          npm install decktape  # Added Decktape installation
-          
+          npm install decktape  # Decktape installation
+      
+      # 6. Build Project with Gulp
       - name: Build Project
         run: |
           npx gulp css
           npx gulp js
           npx gulp plugins
           
+      # 7. Render Markdown and Quarto Files
       - name: Render Markdown and Quarto Files
         run: |
           for file in *.md; do
@@ -67,19 +74,76 @@ jobs:
             fi
           done
 
-      - name: Create PDFs Directory
-        run: mkdir -p pdfs
-          
+      # 8. **List Files After Rendering (Debugging)**
+      - name: List Files After Rendering
+        run: |
+          echo "Listing files after rendering:"
+          ls -R
+
+      # 9. Create Express Server Script
+      - name: Create Express Server
+        run: |
+          cat <<EOF > server.js
+          const express = require('express');
+          const path = require('path');
+          const app = express();
+          const PORT = 8080;
+
+          // Serve static files from repository root
+          app.use(express.static(path.join(__dirname, '.')));
+
+          // Handle all other routes (for single-page applications)
+          app.get('*', (req, res) => {
+            res.sendFile(path.join(__dirname, 'index.html'));
+          });
+
+          app.listen(PORT, () => {
+            console.log(\`Server is running on port \${PORT}\`);
+          });
+          EOF
+
+      # 10. **Copy Missing Resources to Expected Absolute Paths**
+      - name: Copy Missing Resources
+        run: |
+          # Define an associative array mapping absolute paths to actual file locations
+          declare -A paths=(
+            ["/lib/font/inter/inter.css"]="lib/font/inter/inter.css"
+            ["/path/to/your/image.jpg"]="path/to/your/image.jpg"
+            # Add more mappings as needed based on your 404 errors
+          )
+
+          for abs_path in "${!paths[@]}"; do
+            src="${paths[$abs_path]}"
+            dest_path=$(dirname "${abs_path}")
+            dest_file=$(basename "${abs_path}")
+            mkdir -p "$dest_path"
+            if [ -f "$src" ]; then
+              cp "$src" "$dest_path/$dest_file"
+              echo "Copied $src to $dest_path/$dest_file"
+            else
+              echo "Source file $src does not exist, skipping."
+            fi
+          done
+
+      # 11. **List Files After Copying Resources (Debugging)**
+      - name: List Files After Copying Resources
+        run: |
+          echo "Listing files after copying resources:"
+          ls -R
+
+      # 12. Start Express Server in Background
+      - name: Start Express Server
+        run: |
+          node server.js &
+          echo $! > server.pid
+
+      # 13. Wait for Server to Start
+      - name: Wait for Server
+        run: sleep 5
+
+      # 14. Generate PDFs with Decktape
       - name: Generate PDFs
         run: |
-          # Start a simple HTTP server in the background
-          python3 -m http.server 8080 &
-          SERVER_PID=$!
-          
-          # Wait for the server to start
-          sleep 5
-          
-          # Generate PDFs using Decktape
           mkdir -p pdfs
           for file in *.html; do
             if [ -f "$file" ]; then
@@ -92,14 +156,23 @@ jobs:
                 "pdfs/${filename_without_ext}.pdf"
             fi
           done
+
+      # 15. Terminate Express Server
+      - name: Terminate Express Server
+        run: kill $(cat server.pid)
+
+      # 16. **List Generated PDFs (Debugging)**
+      - name: List Generated PDFs
+        run: |
+          echo "Listing generated PDFs:"
+          ls -la pdfs
           
-          # Terminate the HTTP server
-          kill $SERVER_PID
-          
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      # 17. Upload PDFs as Artifacts
+      - name: Upload PDFs Artifact
+        uses: actions/upload-artifact@v3
         with:
-          path: .
+          name: pdfs
+          path: pdfs/
   deploy:
     needs: build
     runs-on: ubuntu-latest
