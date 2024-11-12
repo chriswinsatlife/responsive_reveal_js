@@ -11,35 +11,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. Checkout the repository
       - uses: actions/checkout@v4
       
-      # 2. Cache Node.js modules
-      - name: Cache Node.js modules
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-      
-      # 3. Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'  # Added caching for npm dependencies
           
-      # 4. Setup Quarto
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.4.549
           
-      # 5. Setup Pandoc
       - name: Set up Pandoc
         uses: r-lib/actions/setup-pandoc@v2
           
-      # 6. Install Dependencies
       - name: Install Dependencies
         run: |
           npm install gulp
@@ -51,17 +38,13 @@ jobs:
           npm install yargs
           npm install glob
           npm install node-qunit-puppeteer
-          # Removed: npm install decktape
-          # Removed: npm install express
-      
-      # 7. Build Project with Gulp
+          
       - name: Build Project
         run: |
           npx gulp css
           npx gulp js
           npx gulp plugins
           
-      # 8. Render Markdown and Quarto Files
       - name: Render Markdown and Quarto Files
         run: |
           for file in *.md; do
@@ -83,15 +66,11 @@ jobs:
               fi
             fi
           done
-
-      # 9. **List Files After Rendering (Debugging)**
-      - name: List Files After Rendering
-        run: |
-          echo "Listing files after rendering:"
-          ls -R
-
-      # ... (other steps if any)
-      
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
   deploy:
     needs: build
     runs-on: ubuntu-latest
