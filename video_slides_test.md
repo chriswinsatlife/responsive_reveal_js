@@ -17,8 +17,9 @@ footer: <https://besci.org>
   - Bullet 2
   - Bullet 3
 
-Note: 
+::: {.notes}
 These are the speaker notes. They are two sentences.
+:::
 
 ---
 
@@ -32,8 +33,9 @@ These are the speaker notes. They are two sentences.
   - Bullet 1
   - Bullet 2
 
-Note: 
+::: {.notes}
 These are the speaker notes. They are four sentences on this slide. They add a great deal to the presentation. Providing additional context is important. 
+:::
 
 ---
 
@@ -44,8 +46,9 @@ These are the speaker notes. They are four sentences on this slide. They add a g
   - Bullet 2
   - Bullet 3
 
-Note: 
+::: {.notes}
 Only one sentence of speaker notes here.
+:::
 
 ---
 
@@ -59,14 +62,16 @@ Only one sentence of speaker notes here.
   - Bullet 1
   - Bullet 2
 
-Note: 
+::: {.notes}
 Sometimes speaker notes can be long. More than two sentences, even. In this case, they are three.
+:::
 
 ---
 
 ## Thank You!
 
-Note: 
+::: {.notes}
 I hope you enjoyed the presentation.
+:::
 
 ---
