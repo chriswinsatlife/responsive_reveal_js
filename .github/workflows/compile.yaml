@@ -189,7 +189,7 @@ jobs:
           
       # 17. **Upload PDFs as Artifacts**
       - name: Upload PDFs Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pdfs
           path: pdfs/
