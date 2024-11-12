@@ -14,23 +14,32 @@ jobs:
       # 1. Checkout the repository
       - uses: actions/checkout@v4
       
-      # 2. Setup Node.js environment
+      # 2. Cache Node.js modules
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      
+      # 3. Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           
-      # 3. Setup Quarto
+      # 4. Setup Quarto
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.4.549
           
-      # 4. Setup Pandoc
+      # 5. Setup Pandoc
       - name: Set up Pandoc
         uses: r-lib/actions/setup-pandoc@v2
           
-      # 5. Install Dependencies
+      # 6. Install Dependencies
       - name: Install Dependencies
         run: |
           npm install gulp
@@ -44,15 +53,15 @@ jobs:
           npm install node-qunit-puppeteer
           # Removed: npm install decktape
           # Removed: npm install express
-    
-      # 6. Build Project with Gulp
+      
+      # 7. Build Project with Gulp
       - name: Build Project
         run: |
           npx gulp css
           npx gulp js
           npx gulp plugins
           
-      # 7. Render Markdown and Quarto Files
+      # 8. Render Markdown and Quarto Files
       - name: Render Markdown and Quarto Files
         run: |
           for file in *.md; do
@@ -75,38 +84,13 @@ jobs:
             fi
           done
 
-      # 8. **List Files After Rendering (Debugging)**
+      # 9. **List Files After Rendering (Debugging)**
       - name: List Files After Rendering
         run: |
           echo "Listing files after rendering:"
           ls -R
 
-      # 9. **(Removed) Copy Missing Resources to Expected Relative Paths**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 10. **(Removed) Create Express Server Script**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 11. **(Removed) Start Express Server in Background**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 12. **(Removed) Wait for Server to Start**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 13. **(Removed) Generate PDFs with Decktape**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 14. **(Removed) Terminate Express Server**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 15. **(Removed) List Generated PDFs (Debugging)**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 16. **(Removed) Upload PDFs as Artifacts**
-      # Since Decktape is removed, this step is no longer necessary.
-
-      # 17. **(Optional) Additional Steps**
-      # If you have other steps related to deployment or testing, ensure they remain intact.
+      # ... (other steps if any)
       
   deploy:
     needs: build
