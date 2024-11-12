@@ -71,13 +71,16 @@ jobs:
         run: mkdir -p pdfs
           
       - name: Generate PDFs
+        working-directory: ${{ github.workspace }}  # Explicitly set working directory
         run: |
           mkdir -p pdfs
           for file in *.html; do
             if [ -f "$file" ]; then
               echo "Generating PDF for $file..."
               filename_without_ext="${file%.*}"
-              ./node_modules/.bin/decktape automatic \
+              pwd  # Debug: print working directory
+              ls -la  # Debug: list files
+              npx decktape automatic \
                 --size 1280x720 \
                 --pause 1000 \
                 "$file" \
