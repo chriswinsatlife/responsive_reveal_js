@@ -77,7 +77,7 @@ jobs:
             if [ -f "$file" ]; then
               echo "Generating PDF for $file..."
               filename_without_ext="${file%.*}"
-              npx automatic generic \
+              npx decktape automatic \
                 --size 1280x720 \
                 --pause 1000 \
                 "$file" \
