@@ -17,6 +17,9 @@ footer: <https://besci.org>
   - Bullet 2
   - Bullet 3
 
+Note: 
+These are the speaker notes. They are two sentences.
+
 ---
 
 ## Slide 2
@@ -29,6 +32,10 @@ footer: <https://besci.org>
   - Bullet 1
   - Bullet 2
 
+::: {.notes}
+These are the Quarto-style speaker notes.
+:::
+
 ---
 
 ## Slide 3
@@ -37,6 +44,9 @@ footer: <https://besci.org>
   - Bullet 1
   - Bullet 2
   - Bullet 3
+
+Note: 
+Only one sentence of speaker notes here.
 
 ---
 
@@ -50,8 +60,14 @@ footer: <https://besci.org>
   - Bullet 1
   - Bullet 2
 
+Note: 
+Sometimes speaker notes can be quite long. More than two sentences, even. In this case, they are three.
+
 ---
 
 ## Thank You!
+
+Note: 
+I hope you enjoyed the presentation.
 
 ---
