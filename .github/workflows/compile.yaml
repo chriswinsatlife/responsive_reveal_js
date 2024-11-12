@@ -61,7 +61,7 @@ jobs:
             if [ -f "$file" ]; then
               echo "Processing $file..."
               if ! quarto render "$file" --to revealjs; then
-                echo "Processing $file..."
+                echo "Warning: Failed to process $file, skipping..."
                 continue
               fi
             fi
@@ -71,22 +71,30 @@ jobs:
         run: mkdir -p pdfs
           
       - name: Generate PDFs
-        working-directory: ${{ github.workspace }}  # Explicitly set working directory
         run: |
+          # Start a simple HTTP server in the background
+          python3 -m http.server 8080 &
+          SERVER_PID=$!
+          
+          # Wait for the server to start
+          sleep 5
+          
+          # Generate PDFs using Decktape
           mkdir -p pdfs
           for file in *.html; do
             if [ -f "$file" ]; then
               echo "Generating PDF for $file..."
               filename_without_ext="${file%.*}"
-              pwd  # Debug: print working directory
-              ls -la  # Debug: list files
               npx decktape automatic \
                 --size 1280x720 \
                 --pause 1000 \
-                "$file" \
+                "http://localhost:8080/$file" \
                 "pdfs/${filename_without_ext}.pdf"
             fi
           done
+          
+          # Terminate the HTTP server
+          kill $SERVER_PID
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
