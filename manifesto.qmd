@@ -9,24 +9,7 @@ format:
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/673624e879cf5de5edf4b198_Athena%20Symbol%20-%20White%20%26%20Transparent%20BG%20-%20Square_vector.svg"
 ---
 
-## Opening Impact
-
-Greatness multiplies its impact.
-
-Greatness does not bottleneck itself.  
-Greatness multiplies its impact.  
-Greatness delegates.
-
-:::{.notes}  
-Greatness doesn't limit itself to a single person's efforts. Throughout history, those who've truly changed the world understood the power of amplifying their impact by leveraging others. They didn't try to do everything alone—they delegated.  
-<break time="1.0s" />  
-:::
-
----
-
-## Delegation: The Hidden Key to Success
-
-Leveraging others to amplify impact
+## Delegation: The Hidden Force in History
 
 Throughout history, the most impactful individuals didn't achieve greatness alone. They understood that leveraging others is essential to multiply their impact.
 
@@ -81,7 +64,7 @@ Consider these luminaries from various fields and eras. Despite their difference
 ## Delegation Throughout History
 
 :::{.notes}
-Let's explore how delegation has been a driving force behind some of history's most remarkable accomplishments.  
+Let's explore how delegation has been a driving force behind some of history's most enduring accomplishments.  
 <break time="1.0s" />
 :::
 
@@ -92,7 +75,7 @@ Let's explore how delegation has been a driving force behind some of history's m
 Delegation isn't a modern concept. The Wright brothers, Darwin, and Edison all relied on others to achieve breakthroughs that changed the world.
 
 :::{.notes}
-Delegation has long been a catalyst for innovation. Icons like the Wright brothers, Darwin, and Edison didn't work in isolation—they enlisted others to help turn their groundbreaking ideas into reality. Delegation was integral to their success.  
+Delegation has long been a catalyst for innovation. Icons like the Kant, Newton, and Disney didn't work in isolation—they enlisted others to help turn their groundbreaking ideas into reality. Delegation was integral to their success.  
 <break time="1.0s" />
 :::
 
@@ -122,8 +105,8 @@ Charlie Taylor's contribution was crucial. While the Wright brothers focused on 
 ## Scientists Who Delegated
 
 - Charles Darwin employed an 'army of fact gatherers' for his research.
-- Einstein relied on Marcel Grossmann for mathematical formalization.
-- Delegation was crucial even in groundbreaking scientific work.
+- Einstein relied on Marcel Grossmann for mathematical parts of the theory of general relativity.
+- Newton relied extensively on a personal assistant while crafting the Principia Mathematica.
 
 :::{.notes}
 Even in fields demanding singular genius, delegation played a pivotal role. Darwin's extensive research was supported by numerous collaborators. Einstein leaned on Grossmann's mathematical prowess to solidify his theories. Their breakthroughs were collective efforts.  
