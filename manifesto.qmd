@@ -39,32 +39,24 @@ When we examine human accomplishment, we see that a handful of outliers contribu
 
 ::: {.column width="50%"}
 - Cicero  
-- Einstein  
+- Albert Einstein  
 - Steve Jobs  
-- Caesar  
-- Darwin  
+- Isaac Newton
+- Charles Darwin  
 - Walt Disney  
+- Lee Kuan Yew
 :::
 
 ::: {.column width="50%"}
 - All leveraged personal assistants  
 - Delegated extensively to maximize impact  
-- Achieved greatness through orchestrating others  
+- Achieved greatness through orchestrating others
 :::
 
 ::::
 
 :::{.notes}
-Consider these luminaries from various fields and eras. Despite their differences, they share a common practice: leveraging personal assistants to delegate extensively. By orchestrating the talents of others, they maximized their impact and left indelible marks on history.  
-<break time="1.0s" />
-:::
-
----
-
-## Delegation Throughout History
-
-:::{.notes}
-Let's explore how delegation has been a driving force behind some of history's most enduring accomplishments.  
+Consider these luminaries from various fields and eras. Despite their differences, they share a common practice: leveraging personal assistants to delegate extensively. By orchestrating the talents of others, they maximized their impact and left indelible marks on history. And this is an extremely abridged list. Churchill, Dali, Kant, Bill Gates, Bowie, Enzo Ferrari, Napoleon, the Buddha, Picasso--all of them made prolific use of their personal assistant and other talents around them.
 <break time="1.0s" />
 :::
 
@@ -123,7 +115,7 @@ Charlie Taylor's contribution was crucial. While the Wright brothers focused on 
 
 ---
 
-## Scientists Who Delegated
+## Our Greatest Scientists Delegated
 
 - Charles Darwin employed an 'army of fact gatherers' for his research.
 - Einstein relied on Marcel Grossmann for mathematical parts of the theory of general relativity.
@@ -136,7 +128,7 @@ Even in fields demanding singular genius, delegation played a pivotal role. Darw
 
 ---
 
-## Artists Leveraging Others
+## Our Greatest Artists Delegated
 
 :::: {.columns}
 
@@ -153,7 +145,7 @@ Even in fields demanding singular genius, delegation played a pivotal role. Darw
 ::::
 
 :::{.notes}
-Creativity thrives with collaboration. Walt Disney didn't draw every frame of his animations; he built a team to bring his characters to life. Leonardo da Vinci produced masterpieces with the help of his apprentices, maximizing his creative output through delegation.  
+Creativity thrives with collaboration. Walt Disney didn't draw every frame of his animations; he built a team to bring his characters to life. Leonardo da Vinci produced masterpieces with the help of his apprentices, maximizing his creative output through delegation. As with the scientists, they didn't simply delegate minutiae--they delegated key components of their signature achievements.
 <break time="1.0s" />
 :::
 
