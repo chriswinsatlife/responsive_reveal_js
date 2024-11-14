@@ -784,3 +784,7 @@ code, pre {
 .reveal .slides > section.past {
   display: flex !important;
   flex-direction: column; }
+
+.slide-menu-button i.fas.fa-bars, i.fas.fa-bars, slide-menu-button {
+    display: none !important;
+}
