@@ -163,30 +163,31 @@ gulp.task('plugins', () => {
     } ));
 })
 
+// a custom pipeable step to transform Sass to CSS
 function compileSass() {
-  return through.obj((vinylFile, encoding, callback) => {
+  return through.obj( ( vinylFile, encoding, callback ) => {
     const transformedFile = vinylFile.clone();
+
     sass.render({
-      silenceDeprecations: ['legacy-js-api'],
-      data: transformedFile.contents.toString(),
-      file: transformedFile.path,
-      includePaths: ['./lib/font', './css/print'], // Added missing paths
-    }, (err, result) => {
-      if (err) {
-        console.error('Sass Error:', err.formatted);
-        callback(err);
-      } else {
-        transformedFile.extname = '.css';
-        transformedFile.contents = result.css;
-        callback(null, transformedFile);
-      }
+        silenceDeprecations: ['legacy-js-api'],
+        data: transformedFile.contents.toString(),
+        file: transformedFile.path,
+    }, ( err, result ) => {
+        if( err ) {
+            callback(err);
+        }
+        else {
+            transformedFile.extname = '.css';
+            transformedFile.contents = result.css;
+            callback( null, transformedFile );
+        }
     });
   });
 }
 
 gulp.task('css-themes', () => gulp.src(['./css/theme/source/*.{sass,scss}'])
-    .pipe(compileSass())
-    .pipe(gulp.dest('./dist/theme')));
+        .pipe(compileSass())
+        .pipe(gulp.dest('./dist/theme')))
 
 gulp.task('css-core', () => gulp.src(['css/reveal.scss'])
     .pipe(compileSass())
