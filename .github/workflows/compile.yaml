@@ -38,6 +38,7 @@ jobs:
           npm install yargs
           npm install glob
           npm install node-qunit-puppeteer
+          npm install decktape
           
       - name: Build Project
         run: |
