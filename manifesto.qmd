@@ -147,30 +147,6 @@ Delegation isn't just a strategy for individuals—it's an evolutionary advantag
 
 ---
 
-## Delegation: An Evolutionary Advantage
-
-From Neural Pathways to Human Society
-
-Delegation is ingrained in our biology. From our brains delegating tasks to specialized regions to societies thriving on task distribution, it's a cornerstone of evolution.
-
-:::{.notes}
-Delegation is woven into the fabric of life. Our brains delegate functions to different regions for efficiency. Similarly, societies flourish by distributing tasks among individuals. This fundamental principle has propelled our evolution and progress.  
-<break time="1.0s" />
-:::
-
----
-
-## Our Brain: A Master Delegator
-
-Our neurobiology is built on delegation. The brain offloads routine tasks to automated neural structures, freeing cognitive resources for innovation and abstract thought.
-
-:::{.notes}
-Our brains exemplify delegation at its finest. By automating routine processes like breathing and walking, we reserve mental capacity for creativity and complex problem-solving. This neural delegation is the foundation of human ingenuity.  
-<break time="1.0s" />
-:::
-
----
-
 ## Early Humans and Task Distribution
 
 - Delegated hunting and gathering increased efficiency.
@@ -184,112 +160,14 @@ Our ancestors leveraged delegation for survival. By assigning specific roles—s
 
 ---
 
-## Modern Manifestations of Delegation
+## Delegation: An Evolutionary Advantage
 
-Delegation persists today across all income levels. Nearly half of Lyft riders earn under $50,000 annually, showcasing universal adoption to maximize time and utility.
+From Neural Pathways to Human Society
 
-:::{.notes}
-In today's world, delegation is more accessible and widespread than ever. People across various income levels delegate tasks through services like ride-sharing and food delivery, reflecting an innate desire to optimize time and efficiency.  
-<break time="1.0s" />
-:::
-
----
-
-## The Gifts of Leverage
+Delegation is ingrained in our biology. From our brains delegating tasks to specialized regions to societies thriving on task distribution, it's a cornerstone of evolution.
 
 :::{.notes}
-Delegation offers profound benefits beyond mere time savings. It's a catalyst for personal and collective growth.  
-<break time="1.0s" />
-:::
-
----
-
-## Delegation Transforms Time
-
-Delegation doesn't just save time—it transforms time. By offloading tasks, you enhance the quality of your remaining time, enabling deeper focus and greater impact.
-
-:::{.notes}
-Delegation is transformative. It not only frees up hours but also enhances the quality of the time we retain. This enriched time allows for deeper concentration and more meaningful contributions to our most important endeavors.  
-<break time="1.0s" />
-:::
-
----
-
-## Freeing the Mind for Higher-Order Thinking
-
-Offloading routine tasks clears mental clutter. This cognitive unburdening lets you engage in strategic thinking and innovation where you can make the greatest impact.
-
-:::{.notes}
-By delegating the mundane, we declutter our minds. This cognitive liberation is essential, enabling us to tackle complex challenges and innovate. It's in this mental space that we can truly drive progress and create value.  
-<break time="1.0s" />
-:::
-
----
-
-## Maximizing ROI on Your Time
-
-- Focus on high-leverage activities for outsized returns.
-- Delegation frees you to drive strategic initiatives.
-- Small shifts in time allocation lead to exponential gains.
-
-:::{.notes}
-Time is our most valuable asset. By delegating low-impact tasks, we reallocate time to high-leverage activities that yield greater returns. Even minor adjustments in how we invest our time can produce exponential benefits.  
-<break time="1.0s" />
-:::
-
----
-
-## Delegation Builds Teams
-
-Empowering Others Through Trust
-
-Delegation isn't just offloading work—it's investing in your team. Trusting others with meaningful tasks accelerates their growth and strengthens your organization.
-
-:::{.notes}
-Delegation is a powerful tool for talent development. By entrusting team members with significant responsibilities, we foster their growth and build a stronger, more capable organization. It's a virtuous cycle that benefits everyone involved.  
-<break time="1.0s" />
-:::
-
----
-
-## Delegation Expands the Pie
-
-Delegation isn't zero-sum. It creates more value for everyone involved, unlocking potential and expanding opportunities beyond individual capabilities.
-
-:::{.notes}
-Delegation amplifies value. It's not about dividing work but about multiplying impact. By leveraging others' abilities, we unlock potential that extends beyond individual limitations, creating a win-win scenario for all parties.  
-<break time="1.0s" />
-:::
-
----
-
-## The Compounding Benefits of Delegation
-
-Delegation's benefits compound over time. As your team's skills grow, so do the returns, leading to exponential gains and unexpected breakthroughs.
-
-:::{.notes}
-The effects of delegation are exponential. As teams become more adept through delegated tasks, their capacity for innovation and efficiency increases, leading to significant breakthroughs that wouldn't be achievable otherwise.  
-<break time="1.0s" />
-:::
-
----
-
-## Reclaiming Quality Time
-
-:::: {.columns}
-
-::: {.column width="50%"}
-Enhance Personal Well-being
-:::
-
-::: {.column width="50%"}
-Delegation frees you to invest in relationships, health, and passions, enriching your life beyond work and leading to greater fulfillment.
-:::
-
-::::
-
-:::{.notes}
-Delegation enriches our lives beyond the professional sphere. By freeing up time, we can nurture personal relationships, focus on health, and pursue passions. This holistic well-being contributes to greater fulfillment and, ultimately, fuels our professional effectiveness.  
+Delegation is woven into the fabric of our being. Our brains delegate functions to different regions for efficiency. Similarly, societies flourish by distributing tasks among individuals. This fundamental principle has propelled our evolution and progress. Tribes, companies, and societies have thrived or failed based on their aptitude for delegation. 
 <break time="1.0s" />
 :::
 
