@@ -17,7 +17,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'  # Added caching for npm dependencies
+          cache: 'npm'  # Caching for npm dependencies
+
+      - name: Cache Node Modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
           
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -72,6 +80,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+          
   deploy:
     needs: build
     runs-on: ubuntu-latest
