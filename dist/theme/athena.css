@@ -652,10 +652,10 @@ html {
 .reveal {
   background-color: black;
   color: #fff;
-  font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Be Vietnam Pro", "Inter", "Source Sans Pro", "SF Pro", sans-serif;
   text-align: left; }
   .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
-    font-family: "Inter", "Source Sans Pro", Helvetica, sans-serif;
+    font-family: font-family: "Be Vietnam Pro", "Inter", "Source Sans Pro", "SF Pro", sans-serif;
     color: #fff;
     font-weight: 800;
     line-height: 1.4;
