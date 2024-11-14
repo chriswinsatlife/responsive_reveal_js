@@ -166,15 +166,11 @@ gulp.task('plugins', () => {
 function compileSass() {
   return through.obj((vinylFile, encoding, callback) => {
     const transformedFile = vinylFile.clone();
-
     sass.render({
       silenceDeprecations: ['legacy-js-api'],
       data: transformedFile.contents.toString(),
       file: transformedFile.path,
-      includePaths: ['./css/theme/template', './css/theme/source'],
-      outputStyle: 'compressed',
-      sourceMap: true,
-      outFile: transformedFile.path,
+      includePaths: ['./lib/font', './css/print'], // Added missing paths
     }, (err, result) => {
       if (err) {
         console.error('Sass Error:', err.formatted);
@@ -188,18 +184,9 @@ function compileSass() {
   });
 }
 
-gulp.task('css-themes', () => 
-  gulp.src(['./css/theme/source/*.{sass,scss}'])
+gulp.task('css-themes', () => gulp.src(['./css/theme/source/*.{sass,scss}'])
     .pipe(compileSass())
-    .pipe(autoprefixer())
-    .pipe(minify({ compatibility: 'ie9' }))
-    .pipe(header(cssLicense))
-    .pipe(gulp.dest('./dist/theme'))
-    .on('error', function(err) {
-      console.error('Theme compilation failed:', err);
-      this.emit('end');
-    })
-);
+    .pipe(gulp.dest('./dist/theme')));
 
 gulp.task('css-core', () => gulp.src(['css/reveal.scss'])
     .pipe(compileSass())
