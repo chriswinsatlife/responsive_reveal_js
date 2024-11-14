@@ -6,7 +6,7 @@ format:
     slide-number: false
     preview-links: auto
     css: dist/theme/athena.css
-    logo: "https://cdn.prod.website-files.com/6513fda5217cc80d379e2473/651401d625c36574d67a532b_logo-athena.png"
+    logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/673624e879cf5de5edf4b198_Athena%20Symbol%20-%20White%20%26%20Transparent%20BG%20-%20Square_vector.svg"
 ---
 
 ## The Hidden Hands of Greatness
