@@ -788,3 +788,11 @@ code, pre {
 .slide-menu-button i.fas.fa-bars, i.fas.fa-bars, .slide-menu-button {
     display: none !important;
 }
+
+.slide-menu-button i.fas.fa-bars {
+    display: none !important;
+}
+
+.slide-menu-button {
+    display: none !important;
+}
