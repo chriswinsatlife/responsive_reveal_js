@@ -3,18 +3,15 @@
  *********************************************/
 
 
-// Default mixins and settings -----------------
-@use "../template/mixins";
-@use "../template/settings";
-// ---------------------------------------------
-
-// Theme template ------------------------------
-@use "../template/theme";
-// ---------------------------------------------
+@use "sass:color";
+@use "../template/mixins" as *;
+@use "../template/settings" as *;
+@use "../template/theme" as *;
 
 // Include theme-specific fonts
 @import url(https://fonts.googleapis.com/css?family=Inter);
-@import url('https://fonts.googleapis.com/css?family=Be Vietnam Pro');
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam+Pro');
+
 
 
 
