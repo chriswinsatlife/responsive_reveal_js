@@ -6,7 +6,6 @@ format:
     slide-number: false
     preview-links: auto
     css: dist/theme/athena.css
-    theme: none
     logo: "https://cdn.prod.website-files.com/6513fda5217cc80d379e2473/651401d625c36574d67a532b_logo-athena.png"
 ---
 
