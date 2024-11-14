@@ -2,18 +2,20 @@
  * REVEAL.JS THEME STYLE BOILERPLATE
  *********************************************/
 
+
 // Default mixins and settings -----------------
 @use "../template/mixins";
 @use "../template/settings";
+// ---------------------------------------------
+
+// Theme template ------------------------------
+@use "../template/theme";
 // ---------------------------------------------
 
 // Include theme-specific fonts
 @import url(https://fonts.googleapis.com/css?family=Inter);
 @import url('https://fonts.googleapis.com/css?family=Be Vietnam Pro');
 
-// Theme template ------------------------------
-@use "../template/theme";
-// ---------------------------------------------
 
 
 /*********************************************
