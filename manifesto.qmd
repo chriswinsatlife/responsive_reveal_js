@@ -1,20 +1,19 @@
 ---
 title: "The Delegation Manifesto"
-subtitle: "Unlocking the Power of Leverage for Maximum Impact"
+subtitle: "What History Teaches Us About Unlocking the Power of Leverage"
 format:
   revealjs:
     slide-number: false
     preview-links: auto
-    css: css/theme/cy.css
-    logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
+    css: dist/theme/athena.css
+    logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/673624e879cf5de5edf4b198_Athena%20Symbol%20-%20White%20%26%20Transparent%20BG%20-%20Square_vector.svg"
 ---
-
 ## The Delegation Manifesto
 
 "Unlocking the Power of Leverage for Maximum Impact"
 
 ::: {.notes}
-Welcome, everyone. Today, we're going to explore a game-changing concept that has shaped history and will define our future: delegation. This isn't just about offloading tasks; it's about unlocking human potential on a scale we've never seen before.<break time="1.0s" />
+Okay. So today, we're going to explore a game-changing concept that has shaped history and will define our future: delegation. This isn't just about offloading tasks; it's about unlocking human potential on a scale we've never seen before.<break time="1.0s" />
 :::
 
 ---
