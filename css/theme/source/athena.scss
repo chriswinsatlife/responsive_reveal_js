@@ -3,16 +3,15 @@
  *********************************************/
 
 // Default mixins and settings -----------------
-@import "../template/mixins";
-@import "../template/settings";
+@use "../template/mixins";
+@use "../template/settings";
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url(../../lib/font/inter/inter.css);
-@import url(https://fonts.googleapis.com/css?family=Inter);
+@use url(https://fonts.googleapis.com/css?family=Inter);
 
 // Theme template ------------------------------
-@import "../template/theme";
+@use "../template/theme";
 // ---------------------------------------------
 
 
