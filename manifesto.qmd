@@ -102,6 +102,27 @@ Charlie Taylor's contribution was crucial. While the Wright brothers focused on 
 
 ---
 
+## Henry Ford Delegated the Creation of the Assembly Line
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Assistant: Charles Sorenson
+:::
+
+::: {.column width="50%"}
+Henry Ford had the broad concept of the assembly line, but delegated the R&D and operational execution to Charles Sorenson, who himself delegated crucial design aspects to Clarence Avery.
+:::
+
+::::
+
+:::{.notes}
+Charlie Taylor's contribution was crucial. While the Wright brothers focused on flight mechanics, they delegated the complex task of engine design to Taylor. His expertise enabled them to conquer powered flight—a milestone in human history.  
+<break time="1.0s" />
+:::
+
+---
+
 ## Scientists Who Delegated
 
 - Charles Darwin employed an 'army of fact gatherers' for his research.
