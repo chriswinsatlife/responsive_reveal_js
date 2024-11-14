@@ -514,7 +514,7 @@ Assistants act as multipliers of time. By efficiently handling routine tasks, th
 
 ## Shielding from Distractions
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 Guarding Your Focus
@@ -523,6 +523,8 @@ Guarding Your Focus
 ::: {.column width="50%"}
 Assistants manage information flow, filtering out distractions and preserving your cognitive bandwidth.
 :::
+
+::::
 
 :::{.notes}
 In an age of information overload, assistants serve as gatekeepers. They manage communications and requests, filtering out distractions to preserve your focus and cognitive bandwidth for what truly matters.  
