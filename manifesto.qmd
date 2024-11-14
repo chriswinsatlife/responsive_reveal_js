@@ -52,7 +52,7 @@ When we examine human accomplishment, we see that a handful of outliers contribu
 
 ## What Do the Greatest Leaders Have in Common?
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 - Cicero  
@@ -68,6 +68,8 @@ When we examine human accomplishment, we see that a handful of outliers contribu
 - Delegated extensively to maximize impact  
 - Achieved greatness through orchestrating others  
 :::
+
+::::
 
 :::{.notes}
 Consider these luminaries from various fields and eras. Despite their differences, they share a common practice: leveraging personal assistants to delegate extensively. By orchestrating the talents of others, they maximized their impact and left indelible marks on history.  
@@ -98,7 +100,7 @@ Delegation has long been a catalyst for innovation. Icons like the Wright brothe
 
 ## The Wright Brothers Delegated Engine Design
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 "Assistant: Charlie Taylor"
@@ -107,6 +109,8 @@ Delegation has long been a catalyst for innovation. Icons like the Wright brothe
 ::: {.column width="50%"}
 "Designed and built the first airplane engine, enabling the Wright brothers to achieve powered flight at Kitty Hawk."
 :::
+
+::::
 
 :::{.notes}
 Charlie Taylor's contribution was crucial. While the Wright brothers focused on flight mechanics, they delegated the complex task of engine design to Taylor. His expertise enabled them to conquer powered flight—a milestone in human history.  
@@ -130,7 +134,7 @@ Even in fields demanding singular genius, delegation played a pivotal role. Darw
 
 ## Artists Leveraging Others
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 - Walt Disney  
@@ -141,6 +145,8 @@ Even in fields demanding singular genius, delegation played a pivotal role. Darw
 - Delegated animation and character design, including Mickey Mouse.  
 - Relied on assistants for drawings; produced only 20 paintings himself.  
 :::
+
+::::
 
 :::{.notes}
 Creativity thrives with collaboration. Walt Disney didn't draw every frame of his animations; he built a team to bring his characters to life. Leonardo da Vinci produced masterpieces with the help of his apprentices, maximizing his creative output through delegation.  
@@ -287,7 +293,7 @@ The effects of delegation are exponential. As teams become more adept through de
 
 ## Reclaiming Quality Time
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 "Enhance Personal Well-being"
@@ -296,6 +302,8 @@ The effects of delegation are exponential. As teams become more adept through de
 ::: {.column width="50%"}
 "Delegation frees you to invest in relationships, health, and passions, enriching your life beyond work and leading to greater fulfillment."
 :::
+
+::::
 
 :::{.notes}
 Delegation enriches our lives beyond the professional sphere. By freeing up time, we can nurture personal relationships, focus on health, and pursue passions. This holistic well-being contributes to greater fulfillment and, ultimately, fuels our professional effectiveness.  
@@ -364,7 +372,7 @@ Direct Defensive Delegation is about safeguarding your time. By assigning routin
 
 ## Offensive Delegation—Achieving Goals
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 "Create and Assign Strategic Tasks"
@@ -373,6 +381,8 @@ Direct Defensive Delegation is about safeguarding your time. By assigning routin
 ::: {.column width="50%"}
 "Delegate proactively to drive your vision forward. Empower others to take initiative in advancing key objectives."
 :::
+
+::::
 
 :::{.notes}
 Direct Offensive Delegation is proactive. It's about delegating tasks that push your strategic objectives forward. By empowering others to take initiative, you accelerate progress toward your vision.  
@@ -428,7 +438,7 @@ Each modality offers unique advantages depending on the context.
 
 ## Fostering Innovation within Boundaries
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 "Steve Jobs' Challenge"
@@ -437,6 +447,8 @@ Each modality offers unique advantages depending on the context.
 ::: {.column width="50%"}
 "By setting constraints like a $15 single-button mouse, Jobs spurred his team to innovate creatively within boundaries."
 :::
+
+::::
 
 :::{.notes}
 Delegating by constraints involves setting clear parameters that encourage creative problem-solving. Steve Jobs exemplified this by challenging his team with specific limitations, fostering innovation within defined boundaries.  
@@ -597,7 +609,7 @@ These modalities expand our delegation toolkit exponentially.
 
 ## Orchestrating Human-AI Teams
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 "Hybrid Workforce Management"
@@ -606,6 +618,8 @@ These modalities expand our delegation toolkit exponentially.
 ::: {.column width="50%"}
 "Leaders must develop skills to manage teams combining human and AI workers, maximizing strengths of both."
 :::
+
+::::
 
 :::{.notes}
 The future demands new leadership skills. Managing hybrid teams that blend human and AI workers requires understanding and leveraging the unique strengths of each, orchestrating them toward common goals.  
@@ -679,7 +693,7 @@ These steps help embed effective delegation into organizational culture.
 
 ## Accessing the Right Talent
 
-::: columns
+:::: {.columns}
 
 ::: {.column width="50%"}
 "Efficient Delegation Platforms"
@@ -688,6 +702,8 @@ These steps help embed effective delegation into organizational culture.
 ::: {.column width="50%"}
 "Marketplaces simplify finding specialized talent, reducing barriers to effective delegation."
 :::
+
+::::
 
 :::{.notes}
 Talent marketplaces make it easier to connect with the right people for specific tasks. By reducing friction in finding specialized skills, they lower barriers to delegation and enhance overall efficiency.  
