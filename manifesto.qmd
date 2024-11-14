@@ -11,11 +11,11 @@ format:
 
 ## Opening Impact
 
-"Greatness multiplies its impact."
+Greatness multiplies its impact.
 
-"Greatness does not bottleneck itself.  
+Greatness does not bottleneck itself.  
 Greatness multiplies its impact.  
-Greatness delegates."
+Greatness delegates.
 
 :::{.notes}  
 Greatness doesn't limit itself to a single person's efforts. Throughout history, those who've truly changed the world understood the power of amplifying their impact by leveraging others. They didn't try to do everything alone—they delegated.  
@@ -89,7 +89,7 @@ Let's explore how delegation has been a driving force behind some of history's m
 
 ## History's Greatest Accomplishments Were Delegated
 
-"Delegation isn't a modern concept. The Wright brothers, Darwin, and Edison all relied on others to achieve breakthroughs that changed the world."
+Delegation isn't a modern concept. The Wright brothers, Darwin, and Edison all relied on others to achieve breakthroughs that changed the world.
 
 :::{.notes}
 Delegation has long been a catalyst for innovation. Icons like the Wright brothers, Darwin, and Edison didn't work in isolation—they enlisted others to help turn their groundbreaking ideas into reality. Delegation was integral to their success.  
@@ -103,11 +103,11 @@ Delegation has long been a catalyst for innovation. Icons like the Wright brothe
 :::: {.columns}
 
 ::: {.column width="50%"}
-"Assistant: Charlie Taylor"
+Assistant: Charlie Taylor
 :::
 
 ::: {.column width="50%"}
-"Designed and built the first airplane engine, enabling the Wright brothers to achieve powered flight at Kitty Hawk."
+Designed and built the first airplane engine, enabling the Wright brothers to achieve powered flight at Kitty Hawk.
 :::
 
 ::::
@@ -168,7 +168,7 @@ Delegation isn't just a strategy for individuals—it's an evolutionary advantag
 
 From Neural Pathways to Human Society
 
-"Delegation is ingrained in our biology. From our brains delegating tasks to specialized regions to societies thriving on task distribution, it's a cornerstone of evolution."
+Delegation is ingrained in our biology. From our brains delegating tasks to specialized regions to societies thriving on task distribution, it's a cornerstone of evolution.
 
 :::{.notes}
 Delegation is woven into the fabric of life. Our brains delegate functions to different regions for efficiency. Similarly, societies flourish by distributing tasks among individuals. This fundamental principle has propelled our evolution and progress.  
@@ -179,7 +179,7 @@ Delegation is woven into the fabric of life. Our brains delegate functions to di
 
 ## Our Brain: A Master Delegator
 
-"Our neurobiology is built on delegation. The brain offloads routine tasks to automated neural structures, freeing cognitive resources for innovation and abstract thought."
+Our neurobiology is built on delegation. The brain offloads routine tasks to automated neural structures, freeing cognitive resources for innovation and abstract thought.
 
 :::{.notes}
 Our brains exemplify delegation at its finest. By automating routine processes like breathing and walking, we reserve mental capacity for creativity and complex problem-solving. This neural delegation is the foundation of human ingenuity.  
@@ -203,7 +203,7 @@ Our ancestors leveraged delegation for survival. By assigning specific roles—s
 
 ## Modern Manifestations of Delegation
 
-"Delegation persists today across all income levels. Nearly half of Lyft riders earn under $50,000 annually, showcasing universal adoption to maximize time and utility."
+Delegation persists today across all income levels. Nearly half of Lyft riders earn under $50,000 annually, showcasing universal adoption to maximize time and utility.
 
 :::{.notes}
 In today's world, delegation is more accessible and widespread than ever. People across various income levels delegate tasks through services like ride-sharing and food delivery, reflecting an innate desire to optimize time and efficiency.  
@@ -223,7 +223,7 @@ Delegation offers profound benefits beyond mere time savings. It's a catalyst fo
 
 ## Delegation Transforms Time
 
-"Delegation doesn't just save time—it elevates it. By offloading tasks, you enhance the quality of your remaining time, enabling deeper focus and greater impact."
+Delegation doesn't just save time—it transforms time. By offloading tasks, you enhance the quality of your remaining time, enabling deeper focus and greater impact.
 
 :::{.notes}
 Delegation is transformative. It not only frees up hours but also enhances the quality of the time we retain. This enriched time allows for deeper concentration and more meaningful contributions to our most important endeavors.  
@@ -234,7 +234,7 @@ Delegation is transformative. It not only frees up hours but also enhances the q
 
 ## Freeing the Mind for Higher-Order Thinking
 
-"Offloading routine tasks clears mental clutter. This cognitive unburdening lets you engage in strategic thinking and innovation where you can make the greatest impact."
+Offloading routine tasks clears mental clutter. This cognitive unburdening lets you engage in strategic thinking and innovation where you can make the greatest impact.
 
 :::{.notes}
 By delegating the mundane, we declutter our minds. This cognitive liberation is essential, enabling us to tackle complex challenges and innovate. It's in this mental space that we can truly drive progress and create value.  
@@ -260,7 +260,7 @@ Time is our most valuable asset. By delegating low-impact tasks, we reallocate t
 
 Empowering Others Through Trust
 
-"Delegation isn't just offloading work—it's investing in your team. Trusting others with meaningful tasks accelerates their growth and strengthens your organization."
+Delegation isn't just offloading work—it's investing in your team. Trusting others with meaningful tasks accelerates their growth and strengthens your organization.
 
 :::{.notes}
 Delegation is a powerful tool for talent development. By entrusting team members with significant responsibilities, we foster their growth and build a stronger, more capable organization. It's a virtuous cycle that benefits everyone involved.  
@@ -271,7 +271,7 @@ Delegation is a powerful tool for talent development. By entrusting team members
 
 ## Delegation Expands the Pie
 
-"Delegation isn't zero-sum. It creates more value for everyone involved, unlocking potential and expanding opportunities beyond individual capabilities."
+Delegation isn't zero-sum. It creates more value for everyone involved, unlocking potential and expanding opportunities beyond individual capabilities.
 
 :::{.notes}
 Delegation amplifies value. It's not about dividing work but about multiplying impact. By leveraging others' abilities, we unlock potential that extends beyond individual limitations, creating a win-win scenario for all parties.  
@@ -282,7 +282,7 @@ Delegation amplifies value. It's not about dividing work but about multiplying i
 
 ## The Compounding Benefits of Delegation
 
-"Delegation's benefits compound over time. As your team's skills grow, so do the returns, leading to exponential gains and unexpected breakthroughs."
+Delegation's benefits compound over time. As your team's skills grow, so do the returns, leading to exponential gains and unexpected breakthroughs.
 
 :::{.notes}
 The effects of delegation are exponential. As teams become more adept through delegated tasks, their capacity for innovation and efficiency increases, leading to significant breakthroughs that wouldn't be achievable otherwise.  
@@ -296,11 +296,11 @@ The effects of delegation are exponential. As teams become more adept through de
 :::: {.columns}
 
 ::: {.column width="50%"}
-"Enhance Personal Well-being"
+Enhance Personal Well-being
 :::
 
 ::: {.column width="50%"}
-"Delegation frees you to invest in relationships, health, and passions, enriching your life beyond work and leading to greater fulfillment."
+Delegation frees you to invest in relationships, health, and passions, enriching your life beyond work and leading to greater fulfillment.
 :::
 
 ::::
@@ -325,7 +325,7 @@ To fully harness delegation, we need to understand its different modes and how t
 
 Different Modes for Different Goals
 
-"Mastering delegation involves knowing its various forms. The Delegation Matrix helps tailor your approach to maximize impact."
+Mastering delegation involves knowing its various forms. The Delegation Matrix helps tailor your approach to maximize impact.
 
 :::{.notes}
 Delegation isn't monolithic; it has various forms suited to different situations. The Delegation Matrix offers a framework to identify and apply the most effective delegation strategies for your specific goals.  
@@ -375,11 +375,11 @@ Direct Defensive Delegation is about safeguarding your time. By assigning routin
 :::: {.columns}
 
 ::: {.column width="50%"}
-"Create and Assign Strategic Tasks"
+Create and Assign Strategic Tasks
 :::
 
 ::: {.column width="50%"}
-"Delegate proactively to drive your vision forward. Empower others to take initiative in advancing key objectives."
+Delegate proactively to drive your vision forward. Empower others to take initiative in advancing key objectives.
 :::
 
 ::::
@@ -393,7 +393,7 @@ Direct Offensive Delegation is proactive. It's about delegating tasks that push 
 
 ## Delegating Delegation Itself
 
-"Remove yourself as a bottleneck by empowering trusted team members to delegate tasks on your behalf, creating systems that protect your time."
+Remove yourself as a bottleneck by empowering trusted team members to delegate tasks on your behalf, creating systems that protect your time.
 
 :::{.notes}
 Vicarious Defensive Delegation involves creating systems where others delegate on your behalf. This removes you as a bottleneck, streamlining processes and further protecting your valuable time and attention.  
@@ -406,7 +406,7 @@ Vicarious Defensive Delegation involves creating systems where others delegate o
 
 Building Self-Propelling Teams
 
-"Delegate outcomes rather than tasks. Enable your team to define and execute plans independently, multiplying your impact."
+Delegate outcomes rather than tasks. Enable your team to define and execute plans independently, multiplying your impact.
 
 :::{.notes}
 Vicarious Offensive Delegation is about trust and autonomy. By delegating desired outcomes instead of specific tasks, you empower your team to innovate and take ownership, thereby multiplying your overall impact.  
@@ -441,11 +441,11 @@ Each modality offers unique advantages depending on the context.
 :::: {.columns}
 
 ::: {.column width="50%"}
-"Steve Jobs' Challenge"
+Steve Jobs' Delegation by Constraints
 :::
 
 ::: {.column width="50%"}
-"By setting constraints like a $15 single-button mouse, Jobs spurred his team to innovate creatively within boundaries."
+By setting constraints like a $15 single-button mouse, Jobs spurred his team to innovate creatively within boundaries.
 :::
 
 ::::
@@ -459,7 +459,7 @@ Delegating by constraints involves setting clear parameters that encourage creat
 
 ## Delegating the Unknown
 
-"Trust your team to solve problems without predefined paths. Delegating the unknown leverages their creativity and adaptability."
+Trust your team to solve problems without predefined paths. Delegating the unknown leverages their creativity and adaptability.
 
 :::{.notes}
 Black Box Delegation is about entrusting your team with challenges without prescribing solutions. This approach leverages their creativity and adaptability, often leading to innovative outcomes that exceed expectations.  
@@ -479,7 +479,7 @@ Personal assistants have played a pivotal role in magnifying the impact of many 
 
 ## Personal Assistants: The Ultimate Leverage
 
-"From Caesar to Jobs, personal assistants have been instrumental in amplifying impact. They embody leverage, turning vision into reality."
+From Caesar to Jobs, personal assistants have been instrumental in amplifying impact. They embody leverage, turning vision into reality.
 
 :::{.notes}
 Throughout history, personal assistants have been the catalysts that turn vision into reality. They've helped leaders like Caesar and Steve Jobs amplify their influence, embodying the very essence of leverage.  
@@ -490,7 +490,7 @@ Throughout history, personal assistants have been the catalysts that turn vision
 
 ## Specialization Amplifies Impact
 
-"Assistants specialize uniquely in you. Over time, they tailor their skills to your needs, exponentially increasing effectiveness."
+Assistants specialize uniquely in you. Over time, they tailor their skills to your needs, exponentially increasing effectiveness.
 
 :::{.notes}
 Personal assistants become specialists in their principals. This unique specialization means they deeply understand needs, preferences, and styles, exponentially increasing effectiveness and enabling more nuanced support over time.  
@@ -517,11 +517,11 @@ Assistants act as multipliers of time. By efficiently handling routine tasks, th
 ::: columns
 
 ::: {.column width="50%"}
-"Guarding Your Focus"
+Guarding Your Focus
 :::
 
 ::: {.column width="50%"}
-"Assistants manage information flow, filtering out distractions and preserving your cognitive bandwidth."
+Assistants manage information flow, filtering out distractions and preserving your cognitive bandwidth.
 :::
 
 :::{.notes}
@@ -533,7 +533,7 @@ In an age of information overload, assistants serve as gatekeepers. They manage 
 
 ## Complementing Skills and Deficits
 
-"Assistants fill gaps in your abilities. They manage areas where you're weak, allowing you to excel in your strengths."
+Assistants fill gaps in your abilities. They manage areas where you're weak, allowing you to excel in your strengths.
 
 :::{.notes}
 No one excels in every area. Assistants complement your skills by managing tasks where you're less proficient. This allows you to focus on your strengths, enhancing overall performance and impact.  
@@ -544,7 +544,7 @@ No one excels in every area. Assistants complement your skills by managing tasks
 
 ## Assistants Bridging Work and Life
 
-"By handling both professional and personal tasks, assistants enhance overall well-being, leading to greater satisfaction and productivity."
+By handling both professional and personal tasks, assistants enhance overall well-being, leading to greater satisfaction and productivity.
 
 :::{.notes}
 Assistants often bridge the gap between professional and personal spheres. By managing tasks in both areas, they contribute to a better work-life balance, leading to increased satisfaction and, ultimately, higher productivity.  
@@ -566,7 +566,7 @@ As we embrace the age of artificial intelligence, delegation evolves into a hybr
 
 Integrating AI and Human Efforts
 
-"Artificial intelligence is reshaping delegation. Integrating AI with human teams unlocks new levels of productivity and efficiency."
+Artificial intelligence is reshaping delegation. Integrating AI with human teams unlocks new levels of productivity and efficiency.
 
 :::{.notes}
 Artificial intelligence is transforming how we delegate. By merging AI capabilities with human teams, we unlock unprecedented levels of efficiency and productivity, heralding a new era of hybrid delegation.  
@@ -577,7 +577,7 @@ Artificial intelligence is transforming how we delegate. By merging AI capabilit
 
 ## AI Augments Human Assistants
 
-"AI complements human assistants but doesn't replace them. The synergy between AI and human intuition enhances delegation's effectiveness."
+AI complements human assistants but doesn't replace them. The synergy between AI and human intuition enhances delegation's effectiveness.
 
 :::{.notes}
 AI serves as a powerful complement to human assistants, enhancing their capabilities without replacing the human touch. This synergy leverages the strengths of both, elevating delegation to new levels of effectiveness.  
@@ -612,11 +612,11 @@ These modalities expand our delegation toolkit exponentially.
 :::: {.columns}
 
 ::: {.column width="50%"}
-"Hybrid Workforce Management"
+Hybrid Organizational Design
 :::
 
 ::: {.column width="50%"}
-"Leaders must develop skills to manage teams combining human and AI workers, maximizing strengths of both."
+Leaders must develop skills to manage teams combining human and AI workers, maximizing strengths of both.
 :::
 
 ::::
@@ -630,7 +630,7 @@ The future demands new leadership skills. Managing hybrid teams that blend human
 
 ## Managing the Hybrid Workforce
 
-"The future demands new skills in coordinating human and AI labor. Mastery in this area will define organizational success."
+The future demands new skills in coordinating human and AI labor. Mastery in this area will define organizational success.
 
 :::{.notes}
 Mastering the coordination of human and AI efforts will be a critical determinant of organizational success. This new management science requires adaptability, continuous learning, and strategic foresight.  
@@ -652,7 +652,7 @@ Even as AI rises, maximizing human delegation remains essential. Let's explore h
 
 Breaking Down Barriers
 
-"To unlock delegation's full potential, we must address misconceptions and develop strategies to promote effective practices."
+To unlock delegation's full potential, we must address misconceptions and develop strategies to promote effective practices.
 
 :::{.notes}
 To fully realize the benefits of delegation, we need to tackle existing barriers. This involves reshaping perceptions and implementing strategies that foster effective delegation practices.  
@@ -663,7 +663,7 @@ To fully realize the benefits of delegation, we need to tackle existing barriers
 
 ## Restoring Social Norms
 
-"Delegation isn't a weakness. Changing perceptions will empower more leaders to leverage it for greater impact."
+Delegation isn't a weakness. Changing perceptions will empower more leaders to leverage it for greater impact.
 
 :::{.notes}
 Delegation is often misunderstood as a sign of weakness or lack of capability. By shifting this narrative, we empower more leaders to embrace delegation as a strategic strength, amplifying their impact.  
@@ -696,17 +696,17 @@ These steps help embed effective delegation into organizational culture.
 :::: {.columns}
 
 ::: {.column width="50%"}
-"Efficient Delegation Platforms"
+New Talent Marketplaces
 :::
 
 ::: {.column width="50%"}
-"Marketplaces simplify finding specialized talent, reducing barriers to effective delegation."
+Marketplaces simplify finding specialized talent, reducing barriers to effective delegation--whether a human or AI is delegating the work.
 :::
 
 ::::
 
 :::{.notes}
-Talent marketplaces make it easier to connect with the right people for specific tasks. By reducing friction in finding specialized skills, they lower barriers to delegation and enhance overall efficiency.  
+Talent marketplaces make it easier to connect with the right people for specific tasks. By reducing friction in finding specialized skills, they lower barriers to delegation and enhance overall output.  
 <break time="1.0s" />
 :::
 
@@ -714,7 +714,7 @@ Talent marketplaces make it easier to connect with the right people for specific
 
 ## Tools for Delegation
 
-"Embracing AI and software solutions facilitates the delegation process, making it more accessible and efficient."
+Embracing AI and software solutions facilitates the delegation process, making it more accessible and efficient.
 
 :::{.notes}
 Technology is a catalyst for effective delegation. Embracing AI and software solutions streamlines the process, making it more accessible and efficient, and allowing us to focus on strategic, high-impact activities.  
@@ -727,7 +727,7 @@ Technology is a catalyst for effective delegation. Embracing AI and software sol
 
 Assistants for All
 
-"Broadening access to assistants beyond the elite maximizes human potential and drives collective progress."
+Broadening access to personal assistants beyond the elite maximizes human potential and drives collective progress.
 
 :::{.notes}
 Delegation shouldn't be exclusive to the elite. Expanding access to assistants enables more individuals to leverage their time and talents fully, maximizing human potential and fostering collective advancement.  
@@ -739,7 +739,7 @@ Delegation shouldn't be exclusive to the elite. Expanding access to assistants e
 ## Conclusion
 
 :::{.notes}
-As we conclude, let's reflect on the pivotal role of delegation in shaping the future and consider our own roles in this journey.  
+As we conclude, let's reflect on the pivotal role of delegation in shaping the past and present, and consider our own roles in crafting the future through our own approach to leverage.  
 <break time="1.0s" />
 :::
 
@@ -747,9 +747,9 @@ As we conclude, let's reflect on the pivotal role of delegation in shaping the f
 
 ## The Call to Leverage
 
-"The Future Belongs to Delegators"
+The Future Belongs to Delegators
 
-"Harnessing the power of delegation isn't just advantageous—it's essential. Those who master it will shape the future."
+Harnessing the power of delegation isn't just advantageous—it's essential. Those who master it will shape the landscape of society--they always have.
 
 :::{.notes}
 Delegation isn't merely beneficial—it's imperative. Those who master the art of leveraging others will be the architects of the future, driving innovation and progress on an unprecedented scale.  
@@ -760,27 +760,23 @@ Delegation isn't merely beneficial—it's imperative. Those who master the art o
 
 ## Your Role in Shaping the Future
 
-"Will You Multiply Your Impact?"
+Will You Multiply Your Impact?
 
-"Reflect on your delegation practices. Are you leveraging others to achieve your vision? The choice to multiply your impact is yours."
+Reflect on your delegation practices. Are you leveraging others to craft the future you want?
 
 :::{.notes}
-The question now is personal. Are we fully utilizing delegation to achieve our visions? The opportunity to multiply our impact is within reach, but it requires a conscious decision to embrace delegation.  
+The question now is personal. Are we fully utilizing delegation to achieve our vision? The opportunity to multiply our impact is within reach, but it requires a conscious decision to embrace delegation.  
 <break time="1.0s" />
 :::
 
 ---
 
-## It's Time to Delegate
+## 
 
-"It's Time to Delegate"
-
-"History has always been written by those who leveraged others.  
-The future will be no different.  
-It's time to delegate."
+### It's time to delegate.
 
 :::{.notes}
-History is shaped by those who leverage the talents of others. As we look ahead, it's clear that embracing delegation is crucial to influencing the future. Now is the moment—it's time to delegate.  
+History has always been written by those who leveraged others' time and energy. The future will be no different. And if we aspire to shape the future ourselves, our ability to delegate will dictate the likelihood and magnitude of our impact. 
 <break time="1.0s" />
 :::
 
