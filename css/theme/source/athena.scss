@@ -8,10 +8,10 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@use url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Inter);
 
 // Theme template ------------------------------
-@import "../template/theme";
+@use "../template/theme";
 // ---------------------------------------------
 
 
