@@ -203,9 +203,7 @@ To fully harness delegation, we need to understand its different modes and how t
 
 ---
 
-## The Architecture of Delegation
-
-Different Modes for Different Goals
+## Different Modes for Different Goals
 
 Mastering delegation involves knowing its various forms. The Delegation Matrix helps tailor your approach to maximize impact.
 
@@ -318,27 +316,6 @@ Each modality offers unique advantages depending on the context.
 
 ---
 
-## Fostering Innovation within Boundaries
-
-:::: {.columns}
-
-::: {.column width="50%"}
-Steve Jobs' Delegation by Constraints
-:::
-
-::: {.column width="50%"}
-By setting constraints like a $15 single-button mouse, Jobs spurred his team to innovate creatively within boundaries.
-:::
-
-::::
-
-:::{.notes}
-Delegating by constraints involves setting clear parameters that encourage creative problem-solving. Steve Jobs exemplified this by challenging his team with specific limitations, fostering innovation within defined boundaries.  
-<break time="1.0s" />
-:::
-
----
-
 ## Delegating the Unknown
 
 Trust your team to solve problems without predefined paths. Delegating the unknown leverages their creativity and adaptability.
@@ -446,30 +423,6 @@ As we embrace the age of artificial intelligence, delegation evolves into a hybr
 
 ---
 
-## The AI Revolution in Delegation
-
-Integrating AI and Human Efforts
-
-Artificial intelligence is reshaping delegation. Integrating AI with human teams unlocks new levels of productivity and efficiency.
-
-:::{.notes}
-Artificial intelligence is transforming how we delegate. By merging AI capabilities with human teams, we unlock unprecedented levels of efficiency and productivity, heralding a new era of hybrid delegation.  
-<break time="1.0s" />
-:::
-
----
-
-## AI Augments Human Assistants
-
-AI complements human assistants but doesn't replace them. The synergy between AI and human intuition enhances delegation's effectiveness.
-
-:::{.notes}
-AI serves as a powerful complement to human assistants, enhancing their capabilities without replacing the human touch. This synergy leverages the strengths of both, elevating delegation to new levels of effectiveness.  
-<break time="1.0s" />
-:::
-
----
-
 ## AI Delegation Modalities
 
 - **Delegation Enhancement:** AI refines tasks for clarity.
@@ -491,38 +444,6 @@ These modalities expand our delegation toolkit exponentially.
 
 ---
 
-## Orchestrating Human-AI Teams
-
-:::: {.columns}
-
-::: {.column width="50%"}
-Hybrid Organizational Design
-:::
-
-::: {.column width="50%"}
-Leaders must develop skills to manage teams combining human and AI workers, maximizing strengths of both.
-:::
-
-::::
-
-:::{.notes}
-The future demands new leadership skills. Managing hybrid teams that blend human and AI workers requires understanding and leveraging the unique strengths of each, orchestrating them toward common goals.  
-<break time="1.0s" />
-:::
-
----
-
-## Managing the Hybrid Workforce
-
-The future demands new skills in coordinating human and AI labor. Mastery in this area will define organizational success.
-
-:::{.notes}
-Mastering the coordination of human and AI efforts will be a critical determinant of organizational success. This new management science requires adaptability, continuous learning, and strategic foresight.  
-<break time="1.0s" />
-:::
-
----
-
 ## Maximizing Human Delegation
 
 :::{.notes}
@@ -532,25 +453,12 @@ Even as AI rises, maximizing human delegation remains essential. Let's explore h
 
 ---
 
-## Maximizing Delegation for Impact
-
-Breaking Down Barriers
-
-To unlock delegation's full potential, we must address misconceptions and develop strategies to promote effective practices.
-
-:::{.notes}
-To fully realize the benefits of delegation, we need to tackle existing barriers. This involves reshaping perceptions and implementing strategies that foster effective delegation practices.  
-<break time="1.0s" />
-:::
-
----
-
 ## Restoring Social Norms
 
-Delegation isn't a weakness. Changing perceptions will empower more leaders to leverage it for greater impact.
+Attempting to do everything yourself isn't wise, and leveraging personal assistants isn't self-indulgent. Changing these perceptions will empower more leaders to leverage it for greater impact.
 
 :::{.notes}
-Delegation is often misunderstood as a sign of weakness or lack of capability. By shifting this narrative, we empower more leaders to embrace delegation as a strategic strength, amplifying their impact.  
+Delegation is often misunderstood as a sign of weakness or lack of capability. Throughout history, aggressive delegation and frequent use of personal assistants has been the norm--not the exception. By shifting this narrative, we empower more leaders to embrace delegation as a strategic strength, amplifying their impact. 
 <break time="1.0s" />
 :::
 
@@ -575,30 +483,9 @@ These steps help embed effective delegation into organizational culture.
 
 ---
 
-## Accessing the Right Talent
+## Building Tools for Delegation
 
-:::: {.columns}
-
-::: {.column width="50%"}
-New Talent Marketplaces
-:::
-
-::: {.column width="50%"}
-Marketplaces simplify finding specialized talent, reducing barriers to effective delegation--whether a human or AI is delegating the work.
-:::
-
-::::
-
-:::{.notes}
-Talent marketplaces make it easier to connect with the right people for specific tasks. By reducing friction in finding specialized skills, they lower barriers to delegation and enhance overall output.  
-<break time="1.0s" />
-:::
-
----
-
-## Tools for Delegation
-
-Embracing AI and software solutions facilitates the delegation process, making it more accessible and efficient.
+In addition to performing labor and being a recipient of delegation itself, AI can coordinate the division of tasks between hybrid human-AI teams and optimize organizational efficiency.
 
 :::{.notes}
 Technology is a catalyst for effective delegation. Embracing AI and software solutions streamlines the process, making it more accessible and efficient, and allowing us to focus on strategic, high-impact activities.  
@@ -609,21 +496,10 @@ Technology is a catalyst for effective delegation. Embracing AI and software sol
 
 ## Democratizing Delegation
 
-Assistants for All
-
 Broadening access to personal assistants beyond the elite maximizes human potential and drives collective progress.
 
 :::{.notes}
 Delegation shouldn't be exclusive to the elite. Expanding access to assistants enables more individuals to leverage their time and talents fully, maximizing human potential and fostering collective advancement.  
-<break time="1.0s" />
-:::
-
----
-
-## Conclusion
-
-:::{.notes}
-As we conclude, let's reflect on the pivotal role of delegation in shaping the past and present, and consider our own roles in crafting the future through our own approach to leverage.  
 <break time="1.0s" />
 :::
 
@@ -637,21 +513,6 @@ Harnessing the power of delegation isn't just advantageous—it's essential. Tho
 
 :::{.notes}
 Delegation isn't merely beneficial—it's imperative. Those who master the art of leveraging others will be the architects of the future, driving innovation and progress on an unprecedented scale.  
-<break time="1.0s" />
-:::
-
----
-
-## Your Role in Shaping the Future
-
-Will You Multiply Your Impact?
-
-Reflect on your delegation practices. 
-
-Are you leveraging others to craft the future you want?
-
-:::{.notes}
-The question now is personal. Are we fully utilizing delegation to achieve our vision? The opportunity to multiply our impact is within reach, but it requires a conscious decision to embrace delegation.  
 <break time="1.0s" />
 :::
 
