@@ -14,7 +14,7 @@ format:
 Throughout history, the most impactful individuals didn't achieve greatness alone. They understood that leveraging others is essential to multiply their impact.
 
 :::{.notes}
-The secret behind many of history's greatest achievements isn't just individual brilliance—it's the strategic use of delegation. By entrusting others with meaningful work, these leaders multiplied their influence and transformed their visions into reality.  
+The secret behind many of history's greatest achievements isn't just individual brilliance—it's the strategic use of delegation. By entrusting others with meaningful work, these leaders multiplied their influence and transformed their visions into reality. 
 <break time="1.0s" />
 :::
 
