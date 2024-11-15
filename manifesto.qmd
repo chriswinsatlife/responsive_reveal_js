@@ -27,7 +27,7 @@ The secret behind many of history's greatest achievements isn't just individual 
 - Delegation is the common thread enabling these outsized contributions.
 
 :::{.notes}
-When we examine human accomplishment, we see that a handful of outliers contribute disproportionately to progress. These individuals don't just outperform—they redefine what's possible. And a key factor enabling their extraordinary impact is delegation.  
+When we examine human accomplishment, we see that a handful of outliers contribute disproportionately to progress. These individuals don't just outperform—they redefine what's possible. And a key factor enabling their extraordinary impact is delegation. 
 <break time="1.0s" />
 :::
 
