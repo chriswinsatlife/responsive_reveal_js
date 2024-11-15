@@ -712,3 +712,7 @@ i.fa, i.fas, i.fab {
 .reveal .slide-menu-button:hover i.fas.fa-bars::before {
     color:rgba(225, 225, 225, 0.12) !important; /* Replace with hover color */
 }
+
+html.print-pdf .reveal .slides .pdf-page {
+    background-color: black !important;
+}
