@@ -796,3 +796,7 @@ code, pre {
 .slide-menu-button {
     display: none !important;
 }
+
+html.print-pdf .reveal .slides .pdf-page {
+    background-color: black !important;
+}
