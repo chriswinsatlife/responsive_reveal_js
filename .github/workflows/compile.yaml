@@ -117,8 +117,27 @@ jobs:
       - name: Get modified HTML files
         id: changed-files
         run: |
-          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD | grep '\.html$' || true)
-          echo "files=${CHANGED_FILES}" >> $GITHUB_OUTPUT
+          # Get all changed files
+          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+          
+          # Build list of HTML files to process
+          HTML_TO_PROCESS=""
+          for file in $CHANGED_FILES; do
+            if [[ "$file" =~ \.(md|qmd)$ ]]; then
+              # For .md/.qmd files, add corresponding .html
+              basename="${file%.*}"
+              if [[ -f "${basename}.html" ]]; then
+                HTML_TO_PROCESS+="${basename}.html "
+              fi
+            elif [[ "$file" =~ \.html$ ]]; then
+              # For .html files, add directly
+              HTML_TO_PROCESS+="$file "
+            fi
+          done
+          
+          # Remove trailing space and set output
+          HTML_TO_PROCESS="${HTML_TO_PROCESS% }"
+          echo "files=${HTML_TO_PROCESS}" >> $GITHUB_OUTPUT
 
       - name: Generate PDFs and Screenshots
         env:
