@@ -159,9 +159,9 @@ jobs:
               # Generate PDF
               decktape reveal "$url" "pdfs/${filename}.pdf"
               
-              # Generate screenshots
+              # Generate screenshots (separate command)
               mkdir -p "pngs/$filename"
-              decktape reveal --screenshots --screenshots-directory "pngs/$filename" "$url" /dev/null
+              decktape reveal "$url" --screenshots --screenshots-directory "pngs/$filename"
             fi
           done
 
