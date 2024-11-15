@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'  # Caching for npm dependencies
+          cache: 'npm'
 
       - name: Cache Node Modules
         uses: actions/cache@v3
@@ -92,3 +92,64 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  generate-pdfs:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Decktape
+        run: npm install -g decktape
+
+      - name: Create output directories
+        run: |
+          mkdir -p pdfs
+          mkdir -p pngs
+
+      - name: Get modified HTML files
+        id: changed-files
+        run: |
+          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD | grep '\.html$' || true)
+          echo "files=${CHANGED_FILES}" >> $GITHUB_OUTPUT
+
+      - name: Generate PDFs and Screenshots
+        env:
+          REPO_NAME: ${{ github.repository }}
+        run: |
+          # Wait for GitHub Pages to be ready
+          sleep 60
+
+          # Read the changed files
+          CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
+          
+          for file in $CHANGED_FILES; do
+            if [[ -f "$file" && "$file" == *.html ]]; then
+              filename=$(basename "$file" .html)
+              url="https://${{ github.repository_owner }}.github.io/${REPO_NAME#*/}/$file"
+              
+              echo "Processing $url"
+              
+              # Generate PDF
+              decktape reveal "$url" "pdfs/${filename}.pdf"
+              
+              # Generate screenshots
+              mkdir -p "pngs/$filename"
+              decktape reveal --screenshots --screenshots-directory "pngs/$filename" "$url" /dev/null
+            fi
+          done
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add pdfs/ pngs/
+          git commit -m "Add generated PDFs and screenshots" || echo "No changes to commit"
+          git push
