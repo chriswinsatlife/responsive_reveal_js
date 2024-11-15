@@ -159,9 +159,17 @@ jobs:
               # Generate PDF
               decktape reveal "$url" "pdfs/${filename}.pdf"
               
-              # Generate screenshots with temporary PDF
+              # Generate screenshots with custom naming
               mkdir -p "pngs/$filename"
               decktape reveal "$url" "temp.pdf" --screenshots --screenshots-directory "pngs/$filename"
+              
+              # Rename screenshot files
+              cd "pngs/$filename"
+              for f in temp_*_1280x720.png; do
+                num=$(echo $f | sed 's/temp_\([0-9]*\)_1280x720.png/\1/')
+                mv "$f" "slide_$(printf %02d $num)_1280x720.png"
+              done
+              cd ../..
               rm temp.pdf
             fi
           done
@@ -170,6 +178,11 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add pdfs/ pngs/
-          git commit -m "Add generated PDFs and screenshots" || echo "No changes to commit"
-          git push
+          if [[ -n "$(git status --porcelain pdfs/ pngs/)" ]]; then
+            git add pdfs/ pngs/
+            git commit -m "Add generated PDFs and screenshots"
+            git pull --rebase
+            git push
+          else
+            echo "No changes to commit"
+          fi
