@@ -262,7 +262,7 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #000; } }
+    background-color: #000000; } }
 
 /*********************************************
  * NEW CUSTOM CODE FOR RESPONSIVENESS
@@ -592,7 +592,7 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #000; } }
+    background-color: #000000; } }
 
 /*********************************************
  * NEW CUSTOM CODE FOR RESPONSIVENESS
