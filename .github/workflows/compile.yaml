@@ -156,18 +156,18 @@ jobs:
               
               echo "Processing $url"
               
-              # Generate PDF
-              decktape reveal "$url" "pdfs/${filename}.pdf"
+              # Generate PDF with 1920x1080 resolution
+              decktape reveal --size 1920x1080 "$url" "pdfs/${filename}.pdf"
               
-              # Generate screenshots with custom naming
+              # Generate screenshots with 1920x1080 resolution and custom naming
               mkdir -p "pngs/$filename"
-              decktape reveal "$url" "temp.pdf" --screenshots --screenshots-directory "pngs/$filename"
+              decktape reveal --size 1920x1080 "$url" "temp.pdf" --screenshots --screenshots-directory "pngs/$filename"
               
               # Rename screenshot files
               cd "pngs/$filename"
-              for f in temp_*_1280x720.png; do
-                num=$(echo $f | sed 's/temp_\([0-9]*\)_1280x720.png/\1/')
-                mv "$f" "slide_$(printf %02d $num)_1280x720.png"
+              for f in temp_*_1920x1080.png; do
+                num=$(echo $f | sed 's/temp_\([0-9]*\)_1920x1080.png/\1/')
+                mv "$f" "slide_$(printf %02d $num)_1920x1080.png"
               done
               cd ../..
               rm temp.pdf
