@@ -8,17 +8,6 @@ format:
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/625ef4e2e44066485ac4ffac_New%20TBI%20BeSci.org%20Mark%20-%20Dark.svg"
 ---
 
-## Presentation Overview
-
-Welcome to our exploration of habit formation interventions. We'll delve into the components that make habits stick, strategies to foster their development, and the long-term outcomes of these interventions. Understanding these principles can enhance the design of products and services that promote lasting behavior change.
-
-::: {.notes}
-As we embark on this journey into the science of habit formation, consider how everyday actions become second nature. By dissecting the mechanisms behind habits, we can unlock strategies that not only change behaviors temporarily but create enduring transformations. This knowledge is vital for anyone looking to design interventions that have a lasting impact.
-<break time="1.0s" />
-:::
-
----
-
 ## Essential Components of Habit Formation
 
 - **Initiating the Behavior**
