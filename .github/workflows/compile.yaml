@@ -48,6 +48,11 @@ jobs:
           npm install node-qunit-puppeteer
           npm install decktape
           
+      - name: Move Presentation Files to /presentations
+        run: |
+          mkdir -p presentations
+          mv *.md *.qmd *.html presentations/ 2>/dev/null || echo "No files to move"
+
       - name: Build Project
         run: |
           npx gulp css
@@ -56,8 +61,8 @@ jobs:
           
       - name: Render Markdown and Quarto Files
         run: |
-          for file in *.md; do
-            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "CONTRIBUTING.md" ] && [ "$file" != "LICENSE.md" ]; then
+          for file in presentations/*.md; do
+            if [ -f "$file" ] && [ "$file" != "presentations/README.md" ] && [ "$file" != "presentations/CONTRIBUTING.md" ] && [ "$file" != "presentations/LICENSE.md" ]; then
               echo "Processing $file..."
               if ! quarto render "$file" --to revealjs; then
                 echo "Warning: Failed to process $file, skipping..."
@@ -66,7 +71,7 @@ jobs:
             fi
           done
           
-          for file in *.qmd; do
+          for file in presentations/*.qmd; do
             if [ -f "$file" ]; then
               echo "Processing $file..."
               if ! quarto render "$file" --to revealjs; then
@@ -79,7 +84,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: presentations
           
   deploy:
     needs: build
@@ -126,8 +131,8 @@ jobs:
             if [[ "$file" =~ \.(md|qmd)$ ]]; then
               # For .md/.qmd files, add corresponding .html
               basename="${file%.*}"
-              if [[ -f "${basename}.html" ]]; then
-                HTML_TO_PROCESS+="${basename}.html "
+              if [[ -f "presentations/${basename}.html" ]]; then
+                HTML_TO_PROCESS+="presentations/${basename}.html "
               fi
             elif [[ "$file" =~ \.html$ ]]; then
               # For .html files, add directly
