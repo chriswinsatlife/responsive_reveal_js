@@ -172,52 +172,6 @@ This paradigm shift means moving from explicit programming to teaching by exampl
 
 ---
 
-## Competition History
-
-*2019 to 2024 Key Milestones*
-
-- **2019**: François Chollet introduces ARC-AGI in "On the Measure of Intelligence."
-- **2020**: First ARC-AGI competition on Kaggle; winning team achieves 21% success rate.
-- **2022**: ARCathon 2022 hosted by François and Lab42; 118 teams from 47 countries participate.
-- **2023**: ARCathon 2023 sees over 265 teams compete; top teams reach 30% success.
-- **2024**: Launch of ARC Prize 2024 with over $1.1 million prize pool.
-
-::: {.notes}
-Let's trace the journey of ARC-AGI over the past few years. From its inception in 2019, it quickly became a focal point for measuring AI progress. Competitions held annually have seen teams from around the world tackling this challenge, gradually improving but also highlighting how difficult true general intelligence is to achieve. Now, with the ARC Prize 2024, the stakes and the opportunities have never been higher.<break time="1.0s" />
-:::
-
----
-
-## 2020: First Kaggle Competition
-
-To test ARC-AGI's robustness, François hosted the first competition on Kaggle. The winning team achieved only a 21% success rate, validating the benchmark's difficulty and highlighting the challenge in advancing toward AGI.
-
-::: {.notes}
-The inaugural Kaggle competition in 2020 served as a wake-up call. Despite participation from some of the brightest minds, the best solutions could only solve about a fifth of the tasks. This underscored the complexity of ARC-AGI and the gap between current AI capabilities and true general intelligence.<break time="1.0s" />
-:::
-
----
-
-## 2022: ARCathon
-
-François and Lab42 hosted ARCathon 2022, attracting 118 teams from 47 countries. Michael Hodel won the competition, developing one of the best domain-specific languages (DSLs) for ARC-AGI to date, showcasing significant advancements.
-
-::: {.notes}
-The ARCathon in 2022 marked a significant stride forward. With over a hundred teams globally, the competition fostered innovation and collaboration. Michael Hodel's victory, particularly through his development of a powerful domain-specific language, demonstrated the potential for specialized tools to tackle the challenges of ARC-AGI effectively.<break time="1.0s" />
-:::
-
----
-
-## 2023: Continued Progress
-
-ARCathon 2023 saw increased participation with over 265 teams from 65 countries. First place was shared by Team SM and Team MindsAI, both achieving a 30% success rate on the private evaluation set, demonstrating ongoing progress.
-
-::: {.notes}
-The momentum continued into 2023, with even more teams joining the fray. The shared victory and improved success rates signaled that, while progress is incremental, it's definitely happening. These advancements reflect the collective effort to push the boundaries of what's possible in AI reasoning.<break time="1.0s" />
-:::
-
----
-
 ## 2024: ARC Prize Announcement
 
 - Over $1.1 million prize pool.
@@ -387,53 +341,6 @@ Scoring is designed to fairly evaluate your algorithm's performance. By allowing
 
 ::: {.notes}
 Beyond code, articulating your approach in a paper is crucial, especially for the Paper Awards. This not only showcases your solution but contributes to the collective knowledge of the community. Clarity and thoroughness are important—your paper should enable others to understand and build upon your work.<break time="1.0s" />
-:::
-
----
-
-## Collaborate and Conquer
-
-Forming a team can combine diverse skills and perspectives, leading to stronger solutions. Connect with others on Discord or Kaggle to find teammates. Together, you can accelerate progress and share the journey.
-
-::: {.notes}
-Collaboration can be a powerful asset in this competition. By bringing together different expertise and viewpoints, teams can tackle challenges more effectively. Building a network not only enhances your immediate prospects but fosters relationships that can lead to future innovations beyond this competition.<break time="1.0s" />
-:::
-
----
-
-## Leverage Available Resources
-
-- **Submission Templates**: Get started quickly with pre-built code templates.
-- **Community Discussions**: Engage with peers on Discord and Kaggle forums.
-- **Notable Implementations**: Learn from successful past solutions and repositories.
-
-Utilize these resources to enhance your development process.
-
-::: {.notes}
-Don't reinvent the wheel—take advantage of the tools and knowledge already available. Templates can accelerate your initial setup, while community discussions can offer insights and troubleshoot challenges. Studying previous implementations can inspire new ideas and help you avoid common pitfalls.<break time="1.0s" />
-:::
-
----
-
-## Understanding the Rules
-
-- **Open Source License**: Submissions must be open source under permissive licenses.
-- **Grand Prize**: Achieve at least 85% accuracy to win the $600,000 prize.
-- **Progress Prizes**: Awards for top-scoring teams and best papers.
-- **Fair Play**: Comply with all competition guidelines and code requirements.
-
-::: {.notes}
-Adhering to the competition rules is not just about eligibility; it's about upholding the spirit of open collaboration and fair play. Open sourcing your work contributes to the larger goal of advancing AGI collectively. Aim high for the Grand Prize, but also recognize the value in progress and community contribution.<break time="1.0s" />
-:::
-
----
-
-## Challenges to Overcome
-
-Current approaches have plateaued, and new conceptual breakthroughs are needed to solve ARC-AGI. Existing methods may not suffice to reach the Grand Prize goal. Innovative thinking and novel strategies are essential to advance towards AGI.
-
-::: {.notes}
-The path ahead isn't easy. We've reached a point where incremental improvements may no longer be enough. Breaking through to the next level requires fresh ideas and a willingness to chart unexplored territories. This is both the challenge and the excitement of pursuing AGI—the opportunity to pioneer truly groundbreaking work.<break time="1.0s" />
 :::
 
 ---
