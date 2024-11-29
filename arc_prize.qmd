@@ -8,14 +8,6 @@ format:
     logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/673624e879cf5de5edf4b198_Athena%20Symbol%20-%20White%20%26%20Transparent%20BG%20-%20Square_vector.svg"
 ---
 
-## ARC Prize: Advancing Open AGI
-
-::: {.notes}
-Welcome to the exploration of the ARC Prize—an ambitious quest to advance open Artificial General Intelligence. This prize represents a bold step toward machines that can reason, learn, and adapt like humans. Let's embark on this journey to understand how the ARC Prize is shaping the future of AGI.<break time="1.0s" />
-:::
-
----
-
 ## What is ARC-AGI?
 
 ARC-AGI stands for Abstraction and Reasoning Corpus for Artificial General Intelligence. It is a benchmark introduced by François Chollet in 2019 to measure AI's ability to acquire new skills on unknown tasks, aiming to assess progress toward general intelligence.
