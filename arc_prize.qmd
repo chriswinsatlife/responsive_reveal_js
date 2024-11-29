@@ -82,21 +82,6 @@ Success in ARC-AGI hinges on precision. The AI must generate an output grid that
 
 ---
 
-## Core Knowledge Priors in ARC-AGI
-
-- **Objectness**
-- **Goal-Directedness**
-- **Numbers & Counting**
-- **Basic Geometry & Topology**
-
-ARC-AGI tasks are based on innate human knowledge priors, reflecting fundamental cognitive abilities.
-
-::: {.notes}
-What makes ARC-AGI particularly challenging is that it leverages core knowledge priors—basic principles that humans innately possess. These include concepts like object permanence, intentionality, numerical understanding, and geometric intuition. By building tasks around these fundamental cognitive abilities, ARC-AGI assesses an AI's capacity to mimic human-like reasoning.<break time="1.0s" />
-:::
-
----
-
 ## Objectness
 
 Objects are consistent entities—they persist over time and don't appear or disappear without cause. Understanding objectness means recognizing that objects maintain their identity and can interact or remain separate based on context.
@@ -185,18 +170,6 @@ This year marks a pivotal moment with the announcement of the ARC Prize 2024. Th
 
 ---
 
-## Goals of ARC Prize 2024
-
-- Increase the number of AI researchers exploring new ideas.
-- Promote open-source progress toward AGI.
-- Accelerate the discovery and development of AGI.
-
-::: {.notes}
-The primary goals of the ARC Prize are clear. By attracting more researchers to this field, fostering open-source collaboration, and speeding up innovation, we aim to make substantial strides toward achieving AGI. It's about uniting the global AI community around this ambitious and transformative endeavor.<break time="1.0s" />
-:::
-
----
-
 ## Prize Breakdown
 
 - **Grand Prize**: $600,000 awarded to teams scoring at least 85%.
@@ -260,22 +233,6 @@ The **Public Training Set** contains simpler tasks to help you get started. The 
 
 ::: {.notes}
 As you engage with the tasks, you'll notice a progression in complexity. Early tasks may seem straightforward, but they're designed to build your understanding and tools. The real test lies in the more difficult evaluation sets, where inventive reasoning and robust algorithms are necessary to succeed. This mirrors the journey toward AGI itself—starting with fundamentals and advancing to tackle the most complex challenges.<break time="1.0s" />
-:::
-
----
-
-## Approaches to Consider
-
-- **Discrete Program Search**: Systematically searching through possible programs.
-- **Ensemble Solutions**: Combining multiple methods to improve accuracy.
-- **Direct LLM Prompting**: Using language models to generate solutions.
-- **DSL Program Synthesis**: Developing domain-specific languages for task solutions.
-- **Active Inference**: Fine-tuning models at test time on provided examples.
-
-Explore these methods to develop effective solutions for ARC-AGI.
-
-::: {.notes}
-A variety of strategies have been employed to tackle ARC-AGI. From exhaustive program searches to leveraging the power of language models, each approach has its merits and challenges. Considering these methods can inspire your own strategy, perhaps even leading to novel combinations or entirely new techniques that push the envelope further.<break time="1.0s" />
 :::
 
 ---
@@ -364,20 +321,6 @@ We appreciate your commitment and passion in pushing the boundaries of artificia
 
 ::: {.notes}
 Expressing gratitude is essential. The advancements in AGI are a result of the combined curiosity, ingenuity, and persistence of many. By working together, we unlock possibilities that would be unattainable individually. Your contributions are vital to this exciting journey.<break time="1.0s" />
-:::
-
----
-
-## What's Next?
-
-- **Continue Refining Solutions**: Keep developing and improving your approaches.
-- **Stay Active**: Engage with the community on Discord and Kaggle.
-- **Prepare for Future Competitions**: Get ready for ARC Prize 2025 and beyond.
-
-Your journey doesn't end here—keep pushing forward.
-
-::: {.notes}
-The conclusion of this competition is merely a milestone, not an endpoint. There's much more to explore and achieve. By continuing to refine your solutions and staying engaged with the community, you position yourself at the forefront of ongoing advancements in AGI. The future holds even greater challenges and opportunities.<break time="1.0s" />
 :::
 
 ---
