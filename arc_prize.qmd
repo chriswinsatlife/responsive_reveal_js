@@ -36,18 +36,6 @@ Back in 2019, François Chollet, renowned for creating Keras, penned a pivotal p
 
 ---
 
-## Defining Artificial General Intelligence
-
-> "AGI is a system that can efficiently acquire new skills outside of its training data." – François Chollet
-
-True intelligence lies in the ability to acquire new skills and generalize beyond prior experience, not just in task-specific expertise.
-
-::: {.notes}
-Chollet emphasizes that Artificial General Intelligence is defined by a system's ability to efficiently learn new skills beyond its initial training. It's not about excelling at pre-defined tasks, but about adaptability and generalization—the hallmarks of true intelligence. This shifts the focus from narrow proficiency to broad cognitive capability.<break time="1.0s" />
-:::
-
----
-
 ## Measuring Intelligence
 
 - Task-specific skill isn't true intelligence.
@@ -184,16 +172,6 @@ This paradigm shift means moving from explicit programming to teaching by exampl
 
 ---
 
-## Broader Technological Impact
-
-A solution to ARC-AGI could surpass the significance of the Transformer in AI. It would open entirely new branches of technology, leading to groundbreaking innovations and transformative applications across industries.
-
-::: {.notes}
-The potential impact of solving ARC-AGI cannot be overstated. Just as the introduction of Transformers revolutionized natural language processing, a solution here could catalyze advancements across multiple domains. We could witness the emergence of technologies and applications previously thought to be decades away, fundamentally altering the technological landscape.<break time="1.0s" />
-:::
-
----
-
 ## Competition History
 
 *2019 to 2024 Key Milestones*
@@ -294,20 +272,6 @@ The prize structure reflects the significance of the challenge. A substantial Gr
 
 ::: {.notes}
 For those ready to take on the challenge, these are the milestones to keep in mind. The timeline provides ample opportunity to develop, test, and refine solutions. Looking ahead, even if the ultimate goal isn't reached this year, the journey continues with the next ARC Prize iteration, keeping the momentum alive.<break time="1.0s" />
-:::
-
----
-
-## How to Participate
-
-- Subscribe to the ARC Prize newsletter.
-- Join the Discord community.
-- Engage in Kaggle discussions.
-- Follow us on Twitter and YouTube.
-- Reach out via email at team@arcprize.org.
-
-::: {.notes}
-Participation is open to all who are interested, whether you're an established researcher or an enthusiastic newcomer. By connecting through these channels, you can access resources, collaborate with others, and stay informed about updates and developments throughout the competition.<break time="1.0s" />
 :::
 
 ---
@@ -483,52 +447,6 @@ The path ahead isn't easy. We've reached a point where incremental improvements 
 
 ::: {.notes}
 Recognizing the scale of the challenge, the stakes have been raised. The increased prizes reflect a commitment to rewarding those who can make significant leaps forward. It's a testament to the importance of this work and the belief that with the right incentives, extraordinary breakthroughs are within reach.<break time="1.0s" />
-:::
-
----
-
-## Join Our Events
-
-- **University Tour**: Visit us during our October tour across top AI programs.
-- **NeurIPS 2024**: Connect with us at the conference and workshops.
-- **Engage**: Participate in talks, meet the team, and collaborate with peers.
-
-Take advantage of these opportunities to enhance your understanding and network.
-
-::: {.notes}
-Engagement extends beyond the digital realm. By participating in events and conferences, you can immerse yourself in the community, gain deeper insights, and forge valuable connections. These interactions can spark ideas and collaborations that propel you forward in the competition and your broader endeavors.<break time="1.0s" />
-:::
-
----
-
-## The Future of ARC-AGI
-
-We're investing in developing the next iteration of ARC-AGI to address current limitations. Plans include minimizing brute-forcibility, calibrating task difficulties, and expanding the dataset size. Our commitment is to make ARC-AGI the premier benchmark for AGI research.
-
-::: {.notes}
-Looking ahead, efforts are underway to enhance ARC-AGI itself. By refining the benchmark, we ensure it remains a relevant and challenging measure of progress toward AGI. Continuous improvement of the tasks keeps pushing the boundaries and sets new horizons for what we can achieve.<break time="1.0s" />
-:::
-
----
-
-## Our Commitment
-
-> "We are dedicated to accelerating open progress towards AGI for the benefit of all."
-
-Join us in this mission to realize the potential of open-source AGI solutions. Your contributions can shape the future.
-
-::: {.notes}
-This endeavor isn't just about winning a competition; it's about contributing to a future where AGI benefits everyone. By participating and sharing your work openly, you're part of a collective effort to advance technology in a way that's accessible and equitable. Together, we can drive meaningful progress.<break time="1.0s" />
-:::
-
----
-
-## Code Submissions Closed
-
-Thank you to all participants for your hard work and dedication! We have received thousands of submissions. The verification process is underway, and winners will be announced on December 6, 2024. Stay tuned for the results.
-
-::: {.notes}
-As we conclude this phase of the competition, it's important to acknowledge the tremendous effort and creativity that participants have invested. Each submission brings us one step closer to our collective goal. The upcoming announcement will not only highlight the winners but also celebrate the shared progress we've made.<break time="1.0s" />
 :::
 
 ---
