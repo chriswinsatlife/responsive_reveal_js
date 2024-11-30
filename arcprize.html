@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Arc Prize</title>
+
+    <!-- Load Reveal.js core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/cy.css" id="theme"> <!-- Custom theme CSS -->
+
+    <!-- Import Inter font from Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Load dynamically named Markdown file -->
+          <section data-markdown="arcprize.qmd"
+            data-separator="^\n---\n$"
+            data-separator-vertical="^--$"
+            data-separator-notes="^Note:"
+            data-charset="utf-8">
+          </section>
+      </div>
+    </div>
+
+    <!-- Load Reveal.js and its plugins from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/notes/notes.min.js"></script>
+		
+    <script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+        		width: "100%",
+        		height: "100%",
+        		margin: 0.00,
+        		minScale: 1,
+        		maxScale: 1,
+				controls: false,
+				progress: true,
+				center: true,
+				hash: true,
+				jumpToSlide: true,
+				respondToHashChanges: true,
+				keyboard: true,
+				disableLayout: true,
+
+				transition: 'none', 
+
+				view: 'scroll',
+				scrollProgress: true,
+				
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+  </body>
+</html>
