@@ -1,0 +1,318 @@
+---
+title: "ARC Prize and ARC-AGI: Advancing Towards Artificial General Intelligence"
+format:
+  revealjs:
+    slide-number: false
+    preview-links: auto
+    css: dist/theme/athena.css
+    logo: "https://cdn.prod.website-files.com/5df525c935688c0af50a9c57/673624e879cf5de5edf4b198_Athena%20Symbol%20-%20White%20%26%20Transparent%20BG%20-%20Square_vector.svg"
+---
+
+## What Is ARC-AGI?
+### A Benchmark for Measuring Progress Towards AGI
+
+ARC-AGI is a benchmark designed to test general intelligence in AI systems. It evaluates an AI's ability to acquire new skills and adapt to novel tasks it hasn't seen before.
+
+::: {.notes}
+At the heart of our pursuit lies ARC-AGI—the Abstraction and Reasoning Corpus. It's a groundbreaking benchmark crafted to evaluate an AI's capacity to learn and generalize, much like human intelligence does when facing unfamiliar challenges.<break time="1.0s" />
+:::
+
+---
+
+## François Chollet's Vision
+
+François Chollet, creator of Keras and AI Researcher at Google, introduced ARC-AGI in his influential 2019 paper "On the Measure of Intelligence," aiming to evaluate AI's general intelligence.
+
+::: {.notes}
+ARC-AGI was conceived by François Chollet, a luminary in the AI community. As the creator of Keras and a leading researcher at Google, Chollet has significantly shaped modern AI. His vision was to redefine how we measure intelligence in machines.<break time="1.0s" />
+:::
+
+---
+
+> "The intelligence of a system is a measure of its skill-acquisition efficiency over a scope of tasks, with respect to priors, experience, and generalization difficulty." 
+
+— François Chollet, "On the Measure of Intelligence"
+
+::: {.notes}
+Chollet's definition moves beyond mere task performance. It emphasizes how efficiently a system can acquire new skills across various tasks, considering its prior knowledge and ability to generalize. This shifts our focus to the true essence of intelligence.<break time="1.0s" />
+:::
+
+---
+
+## Redefining Intelligence
+
+Intelligence isn't just performing tasks; it's about efficiently acquiring new skills outside of prior training. AGI must adapt to new environments and challenges unpredictably.
+
+::: {.notes}
+This redefinition challenges traditional AI metrics. Instead of valuing task-specific prowess, we now prioritize the ability to learn and adapt swiftly. AGI embodies this flexibility, responding to unforeseen situations with human-like ingenuity.<break time="1.0s" />
+:::
+
+---
+
+## Why Traditional Metrics Fall Short
+
+::: columns
+::: {.column width="50%"}
+- Depend on extensive prior knowledge
+- Bias from unlimited training data
+:::
+::: {.column width="50%"}
+- Lack true generalization measurement
+- Mask actual intelligence capabilities
+:::
+:::
+
+::: {.notes}
+Conventional AI benchmarks often rely heavily on vast datasets and prior knowledge, creating biases that can obscure an AI's true ability to generalize. This approach masks the system's actual intelligence, giving a skewed view of its capabilities.<break time="1.0s" />
+:::
+
+---
+
+## Abstraction and Reasoning Corpus (ARC-AGI)
+
+ARC-AGI is a collection of unique tasks designed to test an AI's ability to generalize using minimal prior knowledge, mirroring human cognitive abilities.
+
+::: {.notes}
+ARC-AGI addresses these limitations by presenting AI systems with tasks that require minimal prior knowledge—much like how humans encounter new problems. It's designed to evaluate an AI's innate ability to reason and adapt.<break time="1.0s" />
+:::
+
+---
+
+## Unique Training and Evaluation Tasks
+
+Tasks consist of input-output pairs using grid-based puzzles. Grids vary in size from 1x1 to 30x30, with squares of different colors. AI must infer the transformation rules.
+
+::: {.notes}
+The tasks are deceptively simple yet profoundly challenging. By using grid-based puzzles with varying sizes and colors, ARC-AGI forces AI systems to infer hidden transformation rules—a true test of abstract reasoning.<break time="1.0s" />
+:::
+
+---
+
+## An ARC-AGI Task Breakdown
+
+- **Input**: A grid with colored squares
+- **Output**: Transformed grid based on a hidden rule
+- **Challenge**: Infer the rule and apply it to new inputs
+
+::: {.notes}
+Consider a grid of colored squares—the AI is given examples of how inputs transform into outputs based on an unseen rule. The challenge is to decipher this rule and apply it correctly to new inputs, mirroring human problem-solving.<break time="1.0s" />
+:::
+
+---
+
+## The Priors Humans Have
+
+::: columns
+::: {.column width="50%"}
+- **Objectness**: Objects persist over time
+- **Goal-Directedness**: Objects may have intentions
+:::
+::: {.column width="50%"}
+- **Numbers & Counting**: Quantify objects
+- **Basic Geometry**: Understand shapes and spaces
+:::
+:::
+
+::: {.notes}
+Humans approach problems with innate priors—fundamental understandings we possess from birth. ARC-AGI leverages these core concepts, challenging AI to operate with similar foundational knowledge.<break time="1.0s" />
+:::
+
+---
+
+## 1. Objectness
+
+::: columns
+::: {.column width="50%"}
+- Objects are discrete entities
+- Persist continuously over time
+:::
+::: {.column width="50%"}
+- Don't appear or vanish without cause
+- Interact based on circumstances
+:::
+:::
+
+::: {.notes}
+Objectness is our understanding that objects are distinct and enduring. They don't spontaneously appear or disappear. Recognizing this helps us make sense of the physical world and predict how objects should behave.<break time="1.0s" />
+:::
+
+---
+
+## 2. Goal-Directedness
+
+Some objects act as agents with intentions, pursuing goals that influence their behavior. Recognizing this helps predict and understand actions.
+
+::: {.notes}
+We intuitively grasp that certain entities have intentions—they're goal-directed. This understanding allows us to anticipate actions, interpret behaviors, and engage effectively with others, a crucial aspect of human cognition.<break time="1.0s" />
+:::
+
+---
+
+## 3. Numbers & Counting
+
+- Count and order objects
+- Use basic arithmetic
+- Quantify based on appearance or movement
+
+::: {.notes}
+Our innate ability to count and quantify enables us to understand the world numerically. From simple counting to basic arithmetic, this prior is fundamental to reasoning, problem-solving, and recognizing patterns.<break time="1.0s" />
+:::
+
+---
+
+## 4. Basic Geometry & Topology
+
+Understanding shapes, patterns, and spatial relationships is fundamental. This includes recognizing transformations like rotation and mirroring.
+
+::: {.notes}
+Geometry and topology are ingrained in how we perceive space. Recognizing shapes, patterns, and spatial transformations allows us to navigate our environment and solve complex visual puzzles instinctively.<break time="1.0s" />
+:::
+
+---
+
+## Creating a Fair Comparison
+
+::: columns
+::: {.column width="50%"}
+- AI lacks inherent priors
+- Relies on data and algorithms
+:::
+::: {.column width="50%"}
+- Humans have innate understanding
+- Possess core knowledge from birth
+:::
+:::
+
+::: {.notes}
+AI systems start as blank slates, lacking the innate priors humans are born with. ARC-AGI aims to bridge this gap by challenging AI to develop similar foundational understandings, enabling a fair comparison of intelligence.<break time="1.0s" />
+:::
+
+---
+
+## A Stepping Stone Towards AGI
+
+Solving ARC-AGI would signify a major advancement in AI, leading to systems capable of learning new tasks efficiently, much like humans.
+
+::: {.notes}
+Overcoming the ARC-AGI challenge would mark a monumental leap towards AGI. It would demonstrate that AI can learn and adapt with the efficiency and versatility of human intelligence, unlocking unprecedented technological possibilities.<break time="1.0s" />
+:::
+
+---
+
+## Programming by Example
+
+Achieving ARC-AGI could enable creating programs through input-output examples without coding expertise, democratizing programming and automation.
+
+::: {.notes}
+Envision a world where programming isn't limited to experts. By providing examples of desired outcomes, anyone could create software solutions. This democratization would unleash creativity and accelerate innovation across all fields.<break time="1.0s" />
+:::
+
+---
+
+## ARC-AGI Tasks and Data
+
+- Tasks have input-output pairs
+- Grids represented as JSON arrays
+- Success is pixel-perfect outputs
+
+::: {.notes}
+Familiarizing yourself with the data structure is crucial. Tasks are based on input-output pairs represented in JSON arrays. Precision is key—success depends on producing exact pixel-level outputs that match the expected results.<break time="1.0s" />
+:::
+
+---
+
+## Tips for Contestants
+
+::: columns
+::: {.column width="50%"}
+- Focus on skill acquisition
+- Embrace hybrid methods
+- Start small and scale up
+:::
+::: {.column width="50%"}
+- Draw inspiration from cognition
+- Aim for generalizable abstractions
+- Welcome new ideas
+:::
+:::
+
+::: {.notes}
+Chollet's advice emphasizes starting with foundational concepts and progressively building complexity. He encourages embracing new ideas and drawing inspiration from human cognition to create adaptable, generalizable solutions.<break time="1.0s" />
+:::
+
+---
+
+## Code Submission Guidelines
+
+- Submit through Kaggle notebooks
+- Follow evaluation instructions
+- Adhere to code requirements
+
+::: {.notes}
+When you're ready to submit, ensure you use the proper channels and comply with all guidelines. This helps maintain fairness and integrity throughout the competition.<break time="1.0s" />
+:::
+
+---
+
+## $600,000 for 85% Accuracy
+
+Achieve 85% accuracy on ARC-AGI to win the grand prize, marking significant progress towards AGI.
+
+::: {.notes}
+Reaching this milestone isn't just about the prize—it's about making a substantial leap toward artificial general intelligence. An 85% accuracy would signify a breakthrough in AI's ability to generalize and learn.<break time="1.0s" />
+:::
+
+---
+
+## How Your Solution Is Evaluated
+
+- Correct predictions on private test set
+- Two attempts per test input
+- Final score is average correct over total tasks
+
+::: {.notes}
+Understanding the scoring ensures that you can optimize your approach. Each task offers two chances per input, and your final score reflects the average success across all tasks.<break time="1.0s" />
+:::
+
+---
+
+## Code Requirements
+
+- No internet during submission
+- Hardware limitations
+- Runtime limits (up to 12 hours)
+
+::: {.notes}
+Be mindful of the technical parameters. Submissions must function without internet access, respect hardware constraints, and complete within the allotted time to be considered valid.<break time="1.0s" />
+:::
+
+---
+
+## Submitting a Paper
+
+Write a paper to accompany code submissions; outline key sections like abstract, methodology, and results. Paper Awards recognize significant contributions.
+
+::: {.notes}
+Articulating your methodology in a paper not only showcases your work but also contributes to the broader scientific community. It's an opportunity to share insights and advance collective understanding.<break time="1.0s" />
+:::
+
+---
+
+## Forming a Team
+
+Teamwork enhances problem-solving. Consider collaborating to combine diverse skills and tackle ARC-AGI challenges effectively.
+
+::: {.notes}
+Collaboration can amplify strengths and foster creative solutions. Bringing together varied expertise often leads to breakthroughs that might not emerge in isolation.<break time="1.0s" />
+:::
+
+---
+
+## Thank You
+
+We appreciate your time and interest. Let's make history together by advancing towards AGI.
+
+::: {.notes}
+Thank you for being a part of this journey. Together, we have the potential to shape the future of AI and achieve milestones once thought impossible.<break time="1.0s" />
+:::
+---
